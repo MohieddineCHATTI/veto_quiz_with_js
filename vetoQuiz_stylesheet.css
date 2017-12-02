@@ -1,0 +1,27 @@
+body{
+width: 100%;
+}
+.quiz_container{
+background-color: beige;
+width: 70%;
+margin: 0 auto;
+}
+.qst{
+text-align: center;
+font-size: 40px;
+}
+.options_list{
+list-style-type: none;
+padding-left: 0;
+}
+.opt{
+width: 50%;
+text-align: center;
+margin: 5px auto;
+padding: 2%;
+background-color: cadetblue;
+cursor: pointer;
+}
+.opt:hover{
+    background-color: aqua;
+}

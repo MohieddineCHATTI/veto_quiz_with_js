@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>VetoQuiz</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="vetoQuiz_stylesheet.css">
+        
+    </head>
+    
+<body>
+    
+<br><br><br><br><br><br>
+    <div class="container">
+    <div class="quiz_container">
+<p id="qst" class="qst">Start</p>
+    <ol class="options_list">
+        <li id="opt1" class="opt"></li>
+        <li id="opt2" class="opt"></li>
+        <li id="opt3" class="opt"></li>
+        <li id="opt4" class="opt"></li>
+    </ol>
+<button id="next_qst" class="btn btn-danger" onclick="next_qst()">Next_Qst</button>
+<button id="answer_now" class="btn btn-danger" onclick="ans_check()" >Answer Now</button>
+    </div>
+    </div>
+
+    
+    
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="vetoQuiz.js"></script>
+</body>
+
+
+
+</html>
