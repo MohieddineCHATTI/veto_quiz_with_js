@@ -40,10 +40,15 @@ var all_qst=[
 ];
     
     
-    var i=0;
+var i=0;
 var checked=[];
+var count;
+var t;
+var score = 0;
+var correct_ans=0;
+var wrong_ans=0;
 // next question function
-    function next_qst(){
+function next_qst(){
 checked=[];
 if (i<all_qst.length){
 console.log('app is workin working');
@@ -54,9 +59,9 @@ document.getElementById("opt3").innerHTML=(all_qst[i].opt3);
 document.getElementById("opt4").innerHTML=(all_qst[i].opt4);
 i++; 
 } 
-var t=15;
+t=15;
      
-var count = setInterval(function timing(){
+count = setInterval(function timing(){
 if (t>0){
 t--;
 console.log("t is "+t);
@@ -78,15 +83,14 @@ if (!checked.includes($(this).text())){
 }
  console.log(checked);
 });
-var score = 0;
+
+
 function ans_check(){
+if (!checked.length<1){
+clearInterval(count);
+console.log(t);
 console.log(checked.sort());
 console.log(all_qst[i-1].correct_answers.sort());
-/*if (checked.sort()==all_qst[i-1].correct_answers.sort()){
-    console.log(true);
-}else{
-    console.log(false);
-}*/
     if (checked.length==all_qst[i-1].correct_answers.length){
     var k=0;
     var checking = true;
@@ -99,7 +103,20 @@ console.log(all_qst[i-1].correct_answers.sort());
         else{
             checking=false;
         }
-        console.log(checking);
+    console.log(checking);
+        if(checking==true){
+            score+=t;
+        correct_ans++;
+        } else { 
+        wrong_ans++;
+        }
+        console.log(score);
+        console.log(correct_ans);
+        console.log(wrong_ans);
+        
+    }else {
+        alert("please answer the question first");
+    }
 }
 
 
