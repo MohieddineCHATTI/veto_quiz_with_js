@@ -53,7 +53,20 @@ document.getElementById("opt2").innerHTML=(all_qst[i].opt2);
 document.getElementById("opt3").innerHTML=(all_qst[i].opt3);
 document.getElementById("opt4").innerHTML=(all_qst[i].opt4);
 i++; 
+} 
+var t=15;
+     
+var count = setInterval(function timing(){
+if (t>0){
+t--;
+console.log("t is "+t);
+} else {
+    console.log("time is up");
+    clearInterval(count);
 }
+
+},1000) ; 
+        
         
     };
 
@@ -65,7 +78,7 @@ if (!checked.includes($(this).text())){
 }
  console.log(checked);
 });
-
+var score = 0;
 function ans_check(){
 console.log(checked.sort());
 console.log(all_qst[i-1].correct_answers.sort());
@@ -88,6 +101,7 @@ console.log(all_qst[i-1].correct_answers.sort());
         }
         console.log(checking);
 }
+
 
 
 
