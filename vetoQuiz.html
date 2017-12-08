@@ -8,11 +8,27 @@
     </head>
     
 <body>
-    
-<br><br><br><br><br><br>
     <div class="container">
+            <br><br><br><br><br><br>
+    <div class="welcome">
+    <form>
+    <div class="row">
+    <div class="name_infos col-md-7">
+    <h1>welcome to vetoQuiz</h1>
+    <input id="enter_name" type="text" placeholder="please enter your name here" required >    
+    </div>
+    <div class="game_rules col-md-5">
+    <p>quiz rules</p>
+    </div>
+    </div>
+    <input type="submit" value="Start the game now" onclick="next_qst()">
+    </form>
+        
+        <br><br><br><br><br><br>
+    </div>
     <div class="quiz_container">
 <p id="qst" class="qst">Start</p>
+<img src="" id="qst_img" width="150px">
     <ol class="options_list">
         <li id="opt1" class="opt"></li>
         <li id="opt2" class="opt"></li>

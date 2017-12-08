@@ -1,6 +1,12 @@
 body{
 width: 100%;
 }
+.name_infos{
+background-color: brown;
+}
+.game_rules{
+background-color: coral;
+}
 .quiz_container{
 background-color: beige;
 width: 70%;

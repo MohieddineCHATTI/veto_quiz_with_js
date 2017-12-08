@@ -1,6 +1,7 @@
 var easy_qst=[
     {
         qst: "what s the capital city of Algeria ?",
+        img_src:"qst_img.jpg",
         opt1: "algeirs",
         opt2: "biskra",
         opt3: "feliache",
@@ -9,6 +10,7 @@ var easy_qst=[
     },
     {
         qst: "numbers that are lowwer than 10 ?",
+        img_src:"qst_img.jpg",
         opt1: "5",
         opt2: "7",
         opt3: "13",
@@ -17,6 +19,7 @@ var easy_qst=[
     },
     {
         qst: "the day after saturday ?",
+        img_src:"qst_img.jpg",
         opt1: "friday",
         opt2: "wednesday",
         opt3: "monday",
@@ -25,6 +28,7 @@ var easy_qst=[
     },
     {
         qst: "what s the best country in the world ?",
+        img_src:"qst_img.jpg",
         opt1: "algeria",
         opt2: "togo",
         opt3: "us",
@@ -33,6 +37,7 @@ var easy_qst=[
     },
     {
         qst: "numbers that are lowwer than 10 ?",
+        img_src:"qst_img.jpg",
         opt1: "5",
         opt2: "7",
         opt3: "13",
@@ -41,6 +46,7 @@ var easy_qst=[
     },
     {
         qst: "the day after saturday ?",
+        img_src:"qst_img.jpg",
         opt1: "friday",
         opt2: "wednesday",
         opt3: "monday",
@@ -49,6 +55,7 @@ var easy_qst=[
     },
     {
         qst: "what s the best country in the world ?",
+        img_src:"qst_img.jpg",
         opt1: "algeria",
         opt2: "togo",
         opt3: "us",
@@ -57,6 +64,7 @@ var easy_qst=[
     },
     {
         qst: "numbers that are lowwer than 10 ?",
+        img_src:"qst_img.jpg",
         opt1: "5",
         opt2: "7",
         opt3: "13",
@@ -65,6 +73,7 @@ var easy_qst=[
     },
     {
         qst: "the day after saturday ?",
+        img_src:"qst_img.jpg",
         opt1: "friday",
         opt2: "wednesday",
         opt3: "monday",
@@ -73,6 +82,7 @@ var easy_qst=[
     },
     {
         qst: "what s the best country in the world ?",
+        img_src:"qst_img.jpg",
         opt1: "algeria",
         opt2: "togo",
         opt3: "us",
@@ -85,6 +95,7 @@ var easy_qst=[
 var medium_qst=[
     {
         qst: "what s the capital city of Algeria ?",
+        img_src:"",
         opt1: "algeirs",
         opt2: "biskra",
         opt3: "feliache",
@@ -93,6 +104,7 @@ var medium_qst=[
     },
     {
         qst: "numbers that are lowwer than 10 ?",
+        img_src:"",
         opt1: "5",
         opt2: "7",
         opt3: "13",
@@ -101,6 +113,7 @@ var medium_qst=[
     },
     {
         qst: "the day after saturday ?",
+        img_src:"",
         opt1: "friday",
         opt2: "wednesday",
         opt3: "monday",
@@ -109,6 +122,7 @@ var medium_qst=[
     },
     {
         qst: "what s the best country in the world ?",
+        img_src:"",
         opt1: "algeria",
         opt2: "togo",
         opt3: "us",
@@ -117,6 +131,7 @@ var medium_qst=[
     },
     {
         qst: "numbers that are lowwer than 10 ?",
+        img_src:"",
         opt1: "5",
         opt2: "7",
         opt3: "13",
@@ -125,6 +140,7 @@ var medium_qst=[
     },
     {
         qst: "the day after saturday ?",
+        img_src:"",
         opt1: "friday",
         opt2: "wednesday",
         opt3: "monday",
@@ -133,6 +149,7 @@ var medium_qst=[
     },
     {
         qst: "what s the best country in the world ?",
+        img_src:"",
         opt1: "algeria",
         opt2: "togo",
         opt3: "us",
@@ -141,6 +158,7 @@ var medium_qst=[
     },
     {
         qst: "numbers that are lowwer than 10 ?",
+        img_src:"",
         opt1: "5",
         opt2: "7",
         opt3: "13",
@@ -149,6 +167,7 @@ var medium_qst=[
     },
     {
         qst: "the day after saturday ?",
+        img_src:"",
         opt1: "friday",
         opt2: "wednesday",
         opt3: "monday",
@@ -157,6 +176,7 @@ var medium_qst=[
     },
     {
         qst: "what s the best country in the world ?",
+        img_src:"",
         opt1: "algeria",
         opt2: "togo",
         opt3: "us",
@@ -169,6 +189,7 @@ var medium_qst=[
 var hard_qst=[
     {
         qst: "what s the capital city of Algeria ?",
+        img_src:"",
         opt1: "algeirs",
         opt2: "biskra",
         opt3: "feliache",
@@ -177,6 +198,7 @@ var hard_qst=[
     },
     {
         qst: "numbers that are lowwer than 10 ?",
+        img_src:"",
         opt1: "5",
         opt2: "7",
         opt3: "13",
@@ -185,6 +207,7 @@ var hard_qst=[
     },
     {
         qst: "the day after saturday ?",
+        img_src:"",
         opt1: "friday",
         opt2: "wednesday",
         opt3: "monday",
@@ -193,6 +216,7 @@ var hard_qst=[
     },
     {
         qst: "what s the best country in the world ?",
+        img_src:"",
         opt1: "algeria",
         opt2: "togo",
         opt3: "us",
@@ -201,6 +225,7 @@ var hard_qst=[
     },
     {
         qst: "numbers that are lowwer than 10 ?",
+        img_src:"",
         opt1: "5",
         opt2: "7",
         opt3: "13",
@@ -209,6 +234,7 @@ var hard_qst=[
     },
     {
         qst: "the day after saturday ?",
+        img_src:"",
         opt1: "friday",
         opt2: "wednesday",
         opt3: "monday",
@@ -217,6 +243,7 @@ var hard_qst=[
     },
     {
         qst: "what s the best country in the world ?",
+        img_src:"",
         opt1: "algeria",
         opt2: "togo",
         opt3: "us",
@@ -225,6 +252,7 @@ var hard_qst=[
     },
     {
         qst: "numbers that are lowwer than 10 ?",
+        img_src:"",
         opt1: "5",
         opt2: "7",
         opt3: "13",
@@ -233,6 +261,7 @@ var hard_qst=[
     },
     {
         qst: "the day after saturday ?",
+        img_src:"",
         opt1: "friday",
         opt2: "wednesday",
         opt3: "monday",
@@ -241,6 +270,7 @@ var hard_qst=[
     },
     {
         qst: "what s the best country in the world ?",
+        img_src:"",
         opt1: "algeria",
         opt2: "togo",
         opt3: "us",
@@ -314,6 +344,7 @@ times_up = false;
 if (i<all_qst.length){
 console.log('app is workin working');
 document.getElementById("qst").innerHTML=(all_qst[i].qst);
+document.getElementById("qst_img").src=(all_qst[i].img_src);
 document.getElementById("opt1").innerHTML=(all_qst[i].opt1);
 document.getElementById("opt2").innerHTML=(all_qst[i].opt2);
 document.getElementById("opt3").innerHTML=(all_qst[i].opt3);
