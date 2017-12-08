@@ -367,7 +367,9 @@ console.log("t is "+t);
 }
 
 },1000) ; 
-        
+    // enable answer button and disable next qst button
+    document.getElementById("next_qst").setAttribute("disabled", "disabled");
+    document.getElementById("answer_now").removeAttribute("disabled");
         
     };
 
@@ -388,6 +390,8 @@ if (times_up){
     console.log(all_qst[i-1].correct_answers.sort());
     console.log(checking);
     wrong_ans++;
+    document.getElementById("answer_now").setAttribute("disabled", "disabled");
+    document.getElementById("next_qst").removeAttribute("disabled");
 }
 
 else if (!checked.length<1){
@@ -414,7 +418,9 @@ console.log(all_qst[i-1].correct_answers.sort());
         } else { 
         wrong_ans++;
         }
-        
+       /// disable answer button and enable next qst button 
+    document.getElementById("answer_now").setAttribute("disabled", "disabled");
+    document.getElementById("next_qst").removeAttribute("disabled");
     }else {
         alert("please answer the question first");
     }
