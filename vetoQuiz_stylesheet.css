@@ -53,10 +53,21 @@ box-shadow: 0 0 20px yellow;
 background-color: beige;
 width: 70%;
 margin: 0 auto;
+padding: 3%;
+}
+.qst_container{
+width: 90%;
+background-color: aqua;
+margin: 0 auto;
 }
 .qst{
 text-align: center;
 font-size: 40px;
+}
+.qst_img{
+width: 40%;
+display: block;
+margin: 0 auto;
 }
 .options_list{
 list-style-type: none;
@@ -69,6 +80,7 @@ margin: 5px auto;
 padding: 2%;
 background-color: cadetblue;
 cursor: pointer;
+border-radius: 15% 0;
 }
 .opt:hover{
     background-color: aqua;
