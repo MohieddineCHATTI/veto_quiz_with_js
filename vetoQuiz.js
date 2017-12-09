@@ -285,6 +285,7 @@ var medium_index=[];
 var hard_index=[];
 var index=0;
 var j;
+var qst_num;
 
 
 do {
@@ -337,11 +338,14 @@ var score = 0;
 var correct_ans=0;
 var wrong_ans=0;
 var times_up ;
+qst_num=0;
 // next question function
 function next_qst(){
 checked=[];
 times_up = false;
 if (i<all_qst.length){
+qst_num++;
+console.log("this is question number "+qst_num);
 console.log('app is workin working');
 document.getElementById("qst").innerHTML=(all_qst[i].qst);
 document.getElementById("qst_img").src=(all_qst[i].img_src);
@@ -351,7 +355,21 @@ document.getElementById("opt3").innerHTML=(all_qst[i].opt3);
 document.getElementById("opt4").innerHTML=(all_qst[i].opt4);
 i++; 
 } 
-t=15;
+switch (true){
+    case (qst_num<4):
+        t=15;
+        break;
+    case (4<=qst_num && qst_num<9):
+        t=20;
+        break;
+    case (qst_num>=9):
+        t=25;
+        break;
+        default :
+        t=23;
+        break;
+        
+               }
      
 count = setInterval(function timing(){
 if (t>0){
@@ -427,8 +445,16 @@ console.log(all_qst[i-1].correct_answers.sort());
         console.log("your score is "+score);
         console.log("correct answers "+correct_ans);
         console.log("wrong answers "+wrong_ans);
+    
+    
+    // check the end of the quiz
+    if (qst_num==11){
+    alert('the game has finished , your final score is  '+ score + ", you have "+correct_ans+" correct answers, and "+wrong_ans+" wrong answers"  );    
+    }
+    
+    
 }
-
+   
 
 
 
