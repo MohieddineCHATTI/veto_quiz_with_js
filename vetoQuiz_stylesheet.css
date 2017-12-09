@@ -1,11 +1,53 @@
 body{
 width: 100%;
 }
-.name_infos{
-background-color: brown;
+.container{
+    width: 100%;
+    padding: 0;
+    margin: 0;
 }
-.game_rules{
-background-color: coral;
+.welcome{
+background: url(bcground2.jpg);
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+padding: 3%;
+}
+.welcome h1{
+    margin: 0;
+    color: #fbb;
+}
+.welcome p{
+    color: blueviolet;
+}
+.info_input{
+width: 70%;
+margin: 0 auto;
+background-color:rgba(0,0,0,0.4);
+text-align: center;
+border-radius: 20% 0;
+padding: 3%;
+}
+#enter_name{
+color: yellow;
+width: 70%;
+padding: 2%;
+border-radius: 20%;
+text-align: center;
+font-size: 30px;
+box-shadow: 0 0 10px yellow;
+background: rgba(0,5,100,0.5);
+}
+#start_btn{
+font-size: 50px;
+color: darkgoldenrod;
+font-weight: bold;
+background-color: rgba(0,0,0,0.7);
+border-radius: 100%;
+border: none;
+margin: 3%;
+padding: 4%;
+box-shadow: 0 0 20px yellow;
 }
 .quiz_container{
 background-color: beige;
