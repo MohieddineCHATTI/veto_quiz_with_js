@@ -338,11 +338,21 @@ var score = 0;
 var correct_ans=0;
 var wrong_ans=0;
 var times_up ;
+var optColor;
 qst_num=0;
 // next question function
 function next_qst(){
 checked=[];
 times_up = false;
+optColor=document.getElementById("opt1");
+optColor.style.backgroundColor = "cadetblue";
+optColor=document.getElementById("opt2");
+optColor.style.backgroundColor = "cadetblue";
+optColor=document.getElementById("opt3");
+optColor.style.backgroundColor = "cadetblue";
+optColor=document.getElementById("opt4");
+optColor.style.backgroundColor = "cadetblue";
+
 if (i<all_qst.length){
 qst_num++;
 console.log("this is question number "+qst_num);
@@ -390,12 +400,16 @@ console.log("t is "+t);
     document.getElementById("answer_now").removeAttribute("disabled");
         
     };
-
+// what happens when user checks an option
 $("[id^=opt]").click(function(){
 if (!checked.includes($(this).text())){
     checked.push($(this).text());
+    optColor=document.getElementById($(this).attr("id"));
+    optColor.style.background = "#ffffff";
 } else {
     checked.splice(checked.indexOf($(this).text()),1);
+    optColor=document.getElementById($(this).attr("id"));
+    optColor.style.background = "cadetblue";
 }
  console.log(checked);
 });
