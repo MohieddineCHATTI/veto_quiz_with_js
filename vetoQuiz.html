@@ -10,22 +10,26 @@
 <body>
     <div class="container">
             <br><br>
-    <div class="welcome">
+    <div id="welcome" class="welcome ">
     <div class="info_input">
-    <form>
-
+    
     <h1>welcome to vetoQuiz</h1>
     <p><br><br><br><br></p>
-    <input id="enter_name" type="text" placeholder="please write your name.." required ><br>   
-    <input id="start_btn" type="submit" value="Start" onclick="next_qst()">
-    </form>
+    <input id="start_btn" type="submit" value="Start" onclick="strt()">
+
         
     </div>
     </div>
-        <br><br><br><br><br><br>
+        <br>
         
         
-<div class="quiz_container">
+<div id="quiz_container" class="quiz_container">
+<div id="status_bar" class="status_bar">
+    <div id="qst_num" class="qst_num">Q</div>
+    <div id="time" class="time"></div>
+    <div id="score" class="score">score !!</div>
+</div>
+<div id="notification" class="notification"></div>
 <div class="qst_container">
 <p id="qst" class="qst">Start</p>
 <img src="" id="qst_img" class="qst_img" alt=""><br>
@@ -38,15 +42,17 @@
         <div class="opt_container" style="float: right"><p id="opt4" class="opt">something</p></div>
        
     </div>
-    <br><br><br>
+    <br>
     <div id="btn_container" class="btn_container">
 <button id="next_qst" class="btn btn_next_qst" onclick="next_qst()">Next_Qst</button>
 <button id="answer_now" class="btn btn_answer_now" onclick="ans_check()" >Answer Now</button>
     </div>    
     
     </div>
+    
+         <input id="enter_name" type="text" placeholder="please write your name.." required >
+    <br>
     </div>
-<br><br><br><br><br><br><br>
     
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>

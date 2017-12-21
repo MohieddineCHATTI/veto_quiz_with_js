@@ -340,21 +340,33 @@ var wrong_ans=0;
 var times_up ;
 var optColor;
 qst_num=0;
+// start function
+function strt(){
+    document.getElementById("welcome").style.display = "none";
+    document.getElementById("quiz_container").style.display = "block";
+    setTimeout(function(){
+      next_qst();     
+    },1000);
+   
+}
 // next question function
 function next_qst(){
 checked=[];
 times_up = false;
 optColor=document.getElementById("opt1");
-optColor.style.backgroundColor = "cadetblue";
+optColor.style.background='linear-gradient(rgba(95, 158, 160,0.8),rgba(39, 107, 109,0.8))';
 optColor=document.getElementById("opt2");
-optColor.style.backgroundColor = "cadetblue";
+optColor.style.background='linear-gradient(rgba(95, 158, 160,0.8),rgba(39, 107, 109,0.8))';
 optColor=document.getElementById("opt3");
-optColor.style.backgroundColor = "cadetblue";
+optColor.style.background='linear-gradient(rgba(95, 158, 160,0.8),rgba(39, 107, 109,0.8))';
 optColor=document.getElementById("opt4");
-optColor.style.backgroundColor = "cadetblue";
-
+optColor.style.background='linear-gradient(rgba(95, 158, 160,0.8),rgba(39, 107, 109,0.8))';
+document.getElementById("notification").style.background='linear-gradient(to right,rgba(0,0,0,0.5),rgba(66, 244, 244,0.7),rgba(0,0,0,0.5))';
+document.getElementById("notification").style.color="yellow";
+document.getElementById("notification").innerHTML="*_*";
 if (i<all_qst.length){
 qst_num++;
+document.getElementById("qst_num").innerHTML=qst_num+"/20";
 console.log("this is question number "+qst_num);
 console.log('app is workin working');
 document.getElementById("qst").innerHTML=(all_qst[i].qst);
@@ -384,14 +396,14 @@ switch (true){
 count = setInterval(function timing(){
 if (t>0){
 t--;
+document.getElementById("time").innerHTML="- "+t+" -";
 console.log("t is "+t);
 } else {
-    console.log("time is up");
+    document.getElementById("time").innerHTML="time's up";
+    console.log("time's up");
     clearInterval(count);
     times_up = true;
-    setTimeout(function(){
     ans_check();
-    },3000);
 }
 
 },1000) ; 
@@ -405,11 +417,11 @@ $("[id^=opt]").click(function(){
 if (!checked.includes($(this).text())){
     checked.push($(this).text());
     optColor=document.getElementById($(this).attr("id"));
-    optColor.style.background = "#ffffff";
+    optColor.style.background='linear-gradient(to bottom , rgba(95, 158, 160,0.8),yellow,rgba(39, 107, 109,0.8))';
 } else {
     checked.splice(checked.indexOf($(this).text()),1);
     optColor=document.getElementById($(this).attr("id"));
-    optColor.style.background = "cadetblue";
+    optColor.style.background='linear-gradient(rgba(95, 158, 160,0.8),rgba(39, 107, 109,0.8))';
 }
  console.log(checked);
 });
@@ -422,6 +434,9 @@ if (times_up){
     console.log(all_qst[i-1].correct_answers.sort());
     console.log(checking);
     wrong_ans++;
+    document.getElementById("notification").style.background='linear-gradient(to right,rgba(0,0,0,0.5),rgba(255,0,0,0.7),rgba(0,0,0,0.5))';
+    document.getElementById("notification").style.color="black";
+   document.getElementById("notification").innerHTML="Wrong";
     document.getElementById("answer_now").setAttribute("disabled", "disabled");
     document.getElementById("next_qst").removeAttribute("disabled");
 }
@@ -435,8 +450,9 @@ console.log(all_qst[i-1].correct_answers.sort());
     var k=0;
     checking = true;
     do{
-        if (checked.sort()[k]!=all_qst[i-1].correct_answers.sort()[k])
+        if (checked.sort()[k]!=all_qst[i-1].correct_answers.sort()[k]){
         checking= false;
+        }
         k++
     } while (checking==true && k<checked.length)
     }
@@ -445,24 +461,35 @@ console.log(all_qst[i-1].correct_answers.sort());
         }
     console.log(checking);
         if(checking==true){
+           document.getElementById("notification").style.background='linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,255,0,0.7),rgba(0,0,0,0.5))';
+            document.getElementById("notification").style.color="black"; document.getElementById("notification").innerHTML="Correct";
             score+=t;
         correct_ans++;
         } else { 
         wrong_ans++;
+            document.getElementById("notification").style.background='linear-gradient(to right,rgba(0,0,0,0.5),rgba(255,0,0,0.7),rgba(0,0,0,0.5))';
+            document.getElementById("notification").style.color="black"; document.getElementById("notification").innerHTML="Wrong";
         }
        /// disable answer button and enable next qst button 
     document.getElementById("answer_now").setAttribute("disabled", "disabled");
     document.getElementById("next_qst").removeAttribute("disabled");
     }else {
-        alert("please answer the question first");
+        document.getElementById("notification").innerHTML="please answer the question first";
+        setTimeout(function(){
+            document.getElementById("notification").innerHTML="*_*";
+        },3000);
+         
     }
-        console.log("your score is "+score);
+    document.getElementById("score").innerHTML=("score: "+score);    
+    console.log("your score is "+score);
         console.log("correct answers "+correct_ans);
         console.log("wrong answers "+wrong_ans);
     
     
     // check the end of the quiz
     if (qst_num==11){
+    document.getElementById("quiz_container").style.display="none";
+    document.getElementById("enter_name").style.display="block";
     alert('the game has finished , your final score is  '+ score + ", you have "+correct_ans+" correct answers, and "+wrong_ans+" wrong answers"  );    
     }
     
