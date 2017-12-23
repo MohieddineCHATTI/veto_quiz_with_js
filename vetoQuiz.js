@@ -495,6 +495,19 @@ console.log(all_qst[i-1].correct_answers.sort());
     
     
 }
+    
+function openFbPopUp() {
+    var fburl = 'baytarapp.com';
+    var fbimgurl = '__';
+    var fbtitle = 'testing';
+    var fbsummary = "_testing testing testing";
+    var sharerURL = "http://www.facebook.com/sharer/sharer.php?s=100&p[url]=" + encodeURI(fburl) + "&p[images][0]=" + encodeURI(fbimgurl) + "&p[title]=" + encodeURI(fbtitle) + "&p[summary]=" + encodeURI(fbsummary);
+    window.open(
+      sharerURL,
+      'facebook-share-dialog', 
+      'width=626,height=436'); 
+    return  false;
+}
    
 
 
