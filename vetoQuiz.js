@@ -1,93 +1,93 @@
 var easy_qst=[
     {
-        qst: "what s the capital city of Algeria ?",
+        qst: "??? ????? ???? ??????",
         img_src:"qst_img.jpg",
-        opt1: "algeirs",
-        opt2: "biskra",
-        opt3: "feliache",
-        opt4: "cabinet vet dhal3a",
-        correct_answers: ["algeirs"]
+        opt1: "30",
+        opt2: "26",
+        opt3: "32",
+        opt4: "36",
+        correct_answers: ["32"]
     },
     {
-        qst: "numbers that are lowwer than 10 ?",
+        qst: "??? ????? ????? ??????",
         img_src:"qst_img.jpg",
-        opt1: "5",
-        opt2: "7",
-        opt3: "13",
-        opt4: "100",
-        correct_answers: ["5", "7"]
+        opt1: "40",
+        opt2: "42",
+        opt3: "41",
+        opt4: "39",
+        correct_answers: ["42"]
     },
     {
-        qst: "the day after saturday ?",
+        qst: "??? ????? ???? ?????",
         img_src:"qst_img.jpg",
-        opt1: "friday",
-        opt2: "wednesday",
-        opt3: "monday",
-        opt4: "none of the above",
-        correct_answers: ["none of the above"]
+        opt1: "32",
+        opt2: "12",
+        opt3: "24",
+        opt4: "26",
+        correct_answers: ["26"]
     },
     {
-        qst: "what s the best country in the world ?",
+        qst: "??? ????? ????? ???????",
         img_src:"qst_img.jpg",
-        opt1: "algeria",
-        opt2: "togo",
-        opt3: "us",
-        opt4: "germany",
-        correct_answers: ["algeria"]
+        opt1: "32",
+        opt2: "30",
+        opt3: "28",
+        opt4: "36",
+        correct_answers: ["30"]
     },
     {
-        qst: "numbers that are lowwer than 10 ?",
+        qst: "??? ??????? ?? ?? ??? ?????",
         img_src:"qst_img.jpg",
-        opt1: "5",
-        opt2: "7",
-        opt3: "13",
-        opt4: "100",
-        correct_answers: ["5", "7"]
+        opt1: "8",
+        opt2: "16",
+        opt3: "18",
+        opt4: "10",
+        correct_answers: ["16"]
     },
     {
-        qst: "the day after saturday ?",
+        qst: "??? ??????? ?? ?? ??? ????",
         img_src:"qst_img.jpg",
-        opt1: "friday",
-        opt2: "wednesday",
-        opt3: "monday",
-        opt4: "none of the above",
-        correct_answers: ["none of the above"]
+        opt1: "17",
+        opt2: "12",
+        opt3: "10",
+        opt4: "8",
+        correct_answers: ["10"]
     },
     {
-        qst: "what s the best country in the world ?",
+        qst: "??? ??????? ?? ?? ??? ????",
         img_src:"qst_img.jpg",
-        opt1: "algeria",
-        opt2: "togo",
-        opt3: "us",
-        opt4: "germany",
-        correct_answers: ["algeria"]
+        opt1: "12",
+        opt2: "16",
+        opt3: "8",
+        opt4: "6",
+        correct_answers: ["12"]
     },
     {
-        qst: "numbers that are lowwer than 10 ?",
+        qst: "??? ??????? ?? ?? ?? ????",
         img_src:"qst_img.jpg",
-        opt1: "5",
-        opt2: "7",
-        opt3: "13",
-        opt4: "100",
-        correct_answers: ["5", "7"]
+        opt1: "6",
+        opt2: "4",
+        opt3: "8",
+        opt4: "10",
+        correct_answers: ["4"]
     },
     {
-        qst: "the day after saturday ?",
+        qst: "???? ????? ??? ?????",
         img_src:"qst_img.jpg",
-        opt1: "friday",
-        opt2: "wednesday",
-        opt3: "monday",
-        opt4: "none of the above",
-        correct_answers: ["none of the above"]
+        opt1: "69?72",
+        opt2: "64?67",
+        opt3: "60",
+        opt4: "57",
+        correct_answers: ["64?67"]
     },
     {
-        qst: "what s the best country in the world ?",
+        qst: "???? ????? ??? ??????",
         img_src:"qst_img.jpg",
-        opt1: "algeria",
-        opt2: "togo",
-        opt3: "us",
-        opt4: "germany",
-        correct_answers: ["algeria"]
+        opt1: "60",
+        opt2: "66",
+        opt3: "58?68",
+        opt4: "54?56",
+        correct_answers: ["58?68"]
     }
     
     ];
@@ -364,6 +364,10 @@ optColor.style.background='linear-gradient(rgba(95, 158, 160,0.8),rgba(39, 107, 
 document.getElementById("notification").style.background='linear-gradient(to right,rgba(0,0,0,0.5),rgba(66, 244, 244,0.7),rgba(0,0,0,0.5))';
 document.getElementById("notification").style.color="yellow";
 document.getElementById("notification").innerHTML="*_*";
+document.getElementById("opt1").style.pointerEvents="auto";
+document.getElementById("opt2").style.pointerEvents="auto";
+document.getElementById("opt3").style.pointerEvents="auto";
+document.getElementById("opt4").style.pointerEvents="auto";
 if (i<all_qst.length){
 qst_num++;
 document.getElementById("qst_num").innerHTML=qst_num+"/20";
@@ -408,8 +412,8 @@ console.log("t is "+t);
 
 },1000) ; 
     // enable answer button and disable next qst button
-    document.getElementById("next_qst").setAttribute("disabled", "disabled");
-    document.getElementById("answer_now").removeAttribute("disabled");
+    document.getElementById("next_qst").style.display="none";
+    document.getElementById("answer_now").style.display="block";
         
     };
 // what happens when user checks an option
@@ -437,8 +441,13 @@ if (times_up){
     document.getElementById("notification").style.background='linear-gradient(to right,rgba(0,0,0,0.5),rgba(255,0,0,0.7),rgba(0,0,0,0.5))';
     document.getElementById("notification").style.color="black";
    document.getElementById("notification").innerHTML="Wrong";
-    document.getElementById("answer_now").setAttribute("disabled", "disabled");
-    document.getElementById("next_qst").removeAttribute("disabled");
+    document.getElementById("answer_now").style.display= "none";
+    document.getElementById("next_qst").style.display= "block";
+    document.getElementById("opt1").style.pointerEvents="none";
+    document.getElementById("opt2").style.pointerEvents="none";
+    document.getElementById("opt3").style.pointerEvents="none";
+    document.getElementById("opt4").style.pointerEvents="none";
+    /*document.getElementById("next_qst").removeAttribute("disabled");*/
 }
 
 else if (!checked.length<1){
@@ -446,6 +455,10 @@ clearInterval(count);
 console.log(t);
 console.log(checked.sort());
 console.log(all_qst[i-1].correct_answers.sort());
+document.getElementById("opt1").style.pointerEvents="none";
+document.getElementById("opt2").style.pointerEvents="none";
+document.getElementById("opt3").style.pointerEvents="none";
+document.getElementById("opt4").style.pointerEvents="none";
     if (checked.length==all_qst[i-1].correct_answers.length){
     var k=0;
     checking = true;
@@ -471,8 +484,8 @@ console.log(all_qst[i-1].correct_answers.sort());
             document.getElementById("notification").style.color="black"; document.getElementById("notification").innerHTML="Wrong";
         }
        /// disable answer button and enable next qst button 
-    document.getElementById("answer_now").setAttribute("disabled", "disabled");
-    document.getElementById("next_qst").removeAttribute("disabled");
+    document.getElementById("answer_now").style.display= "none";
+    document.getElementById("next_qst").style.display= "block";
     }else {
         document.getElementById("notification").innerHTML="please answer the question first";
         setTimeout(function(){
@@ -489,7 +502,7 @@ console.log(all_qst[i-1].correct_answers.sort());
     // check the end of the quiz
     if (qst_num==11){
     document.getElementById("quiz_container").style.display="none";
-    document.getElementById("enter_name").style.display="block";
+    document.getElementById("finish_alert").style.display="block";
     alert('the game has finished , your final score is  '+ score + ", you have "+correct_ans+" correct answers, and "+wrong_ans+" wrong answers"  );    
     }
     

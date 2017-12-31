@@ -11,6 +11,10 @@ background-size: cover;
     padding: 0;
     margin: 0;
 }
+#all_quiz{
+float: left;
+width: 60%;
+}
 .welcome{
 background: url(bcground2.jpg);
 background-repeat: no-repeat;
@@ -42,8 +46,12 @@ text-align: center;
 font-size: 30px;
 box-shadow: 0 0 10px yellow;
 background: rgba(0,5,100,0.5);
-display: none;
 margin: 0 auto;
+}
+.finish_alert{
+    display: none;
+    margin: auto;
+    width: 60%;
 }
 #start_btn{
 font-size: 50px;
@@ -58,11 +66,10 @@ box-shadow: 0 0 20px yellow;
 }
 .quiz_container{
 background: url('gradbg.jpg');
-/*background: linear-gradient(to bottom right, rgba(45, 88, 229,0.8), rgba(45, 88, 229,0.8),rgba(87, 9, 104,0.8));*/
 background-position: center;
 background-size: cover;
-width: 70%;
-margin: 0 auto;
+width: 100%;
+margin:0 7px;
 padding: 3%;
 border-radius: 10%;
 display: none;
@@ -114,13 +121,17 @@ color:black;
 }
 .btn_next_qst{
     width: 40%;
-    border-radius: 30% 0 0 30%;
+    border-radius: 50% 50% 50% 50%;
     background: linear-gradient(to right, red,pink);
+    margin:auto;
+    padding: 10px;
 }
 .btn_answer_now{
     width: 40%;
-    border-radius: 0 30% 30% 0;
+    border-radius: 50% 50% 50% 50%;
     background: linear-gradient(to right, pink, blue);
+    margin: auto;
+    padding: 10px;
 }
 .status_bar{
     text-align: center;
