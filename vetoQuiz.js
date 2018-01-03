@@ -287,8 +287,12 @@ var index=0;
 var j;
 var qst_num;
 
-
-do {
+function rndmqst(){
+    index=0;
+    easy_index=[];
+    medium_index=[];
+    hard_index=[];
+   do {
     
     
     if (index<3){
@@ -329,6 +333,8 @@ do {
 
 
 console.log(all_qst);
+ 
+}
     
 var i=0;
 var checked=[];
@@ -342,6 +348,8 @@ var optColor;
 qst_num=0;
 // start function
 function strt(){
+    all_qst=[];
+    rndmqst();
     document.getElementById("welcome").style.display = "none";
     document.getElementById("quiz_container").style.display = "block";
     setTimeout(function(){
@@ -522,9 +530,80 @@ function openFbPopUp() {
     return  false;
 }
    
+function play_again(){
+    qst_num = 0;
+    i=0;
+    clearInterval(count);
+    checked=[];
+    score = 0;
+    correct_ans=0;
+    wrong_ans=0;
+    qst_num=0;
+    strt();
+}
 
 
+///
+///
+///
+///
+///
+// pub area
 
+var anum = 1;
+function slidingAnim(){
+    if (anum<4){
+        anum=anum+1;
+    }
+    else {
+        anum=1;
+    }
+   if (anum!=1){ var prv_anim= "anim"+(anum-1);} else { var prv_anim= "anim4"}
+   var act_anim = "anim"+anum;
+    console.log(anum);
+    console.log(act_anim);
+    console.log(prv_anim);
+    document.getElementById(prv_anim).setAttribute("class","hide");
+    document.getElementById(act_anim).removeAttribute("class","hide");
+}
+setInterval(slidingAnim, 4000);
+
+var pnum = 1;
+function slidingProd(){
+    if (pnum<4){
+        pnum=pnum+1;
+    }
+    else {
+        pnum=1;
+    }
+   if (pnum!=1){ var prv_prod= "prod"+(pnum-1);} else { var prv_prod= "prod4"}
+   var act_prod = "prod"+pnum;
+    console.log(pnum);
+    console.log(act_prod);
+    console.log(prv_prod);
+    document.getElementById(prv_prod).setAttribute("class","hide");
+    document.getElementById(act_prod).removeAttribute("class","hide");
+}
+setInterval(slidingProd, 5000);
+    
+
+var onum = 1;
+function slidingOther(){
+    if (onum<4){
+        onum=onum+1;
+    }
+    else {
+        onum=1;
+    }
+   if (onum!=1){ var prv_other= "other"+(onum-1);} else { var prv_other= "other4"}
+   var act_other = "other"+onum;
+    console.log(onum);
+    console.log(act_other);
+    console.log(prv_other);
+    document.getElementById(prv_other).setAttribute("class","hide");
+    document.getElementById(act_other).removeAttribute("class","hide");
+}
+setInterval(slidingOther, 7000);
 
 
 
