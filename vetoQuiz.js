@@ -604,7 +604,25 @@ function slidingOther(){
     document.getElementById(act_other).removeAttribute("class","hide");
 }
 setInterval(slidingOther, 7000);
-
+    
+    
+// animate pub header
+     var headColor =1;
+    function anim_header(){
+    if (headColor==1){
+     $("#pub_header a").css('color','rgb(39, 151, 145)');
+    $("#pub_header a").css('text-shadow','3px 3px 5px red');
+    headColor++;
+    }else{
+    $("#pub_header a").css('color','rgb(202, 200, 55)');
+    $("#pub_header a").css('text-shadow','3px 3px 5px rgb(118, 11, 158)');
+    headColor=1
+    }
+    }
+    
+setInterval(function(){
+    anim_header();
+}, 700);
 
 
 

@@ -1,6 +1,6 @@
 body{
 width: 100%;
-/*background:url('sunset.jpg');*/
+background-color:beige;
 background-attachment: fixed;
 background-position: center;
 background-repeat: no-repeat;
@@ -11,6 +11,25 @@ padding: 10px;
     width: 100%;
     padding: 0;
     margin: 0;
+}
+/* navigation bar */
+.nav_bar_elemnts{
+list-style: none;
+width: 100%;
+margin: 5px auto;
+text-align: center;
+padding: 5px;
+background: linear-gradient(to right, rgb(72, 199, 219),rgb(237, 185, 0),rgb(72, 199, 219));
+}
+.nav_bar_elemnts li{
+display: inline;
+border-left: 1px dashed black;
+border-right: 1px dashed black;
+margin: 5px;
+padding: 5px;
+font-size: 20px;
+background: rgba(0, 0, 0, 0.1);
+font-style:italic;
 }
 #all_quiz{
 float: left;
@@ -53,7 +72,7 @@ margin: 10px auto;
 }
 
 .finish_alert{
-  /*  display: none;*/
+    display: none;
     margin: auto;
     width: 60%;
     text-align: center;
@@ -200,10 +219,67 @@ float: right;
 text-align: center;
 border-width: 2px;
 border-color: black;
-border-style: solid;
+border-left-style: solid;
+background: linear-gradient(rgba(0,50,20,0.7), rgb(183, 154, 82));
+}
+.pub_header{
+    text-align: center;
+    font-size:40px;
+    text-shadow: 3px 3px 5px yellow;
 }
 .pub_area img{
     width: 60%;
     display: block;
     margin: 5px auto;
+    border: 1px solid black;
+    padding: 3px;
+}
+.pub_title{
+    text-align: center;
+    color: rgb(39, 51, 145);
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.pub_header a {
+    color: rgb(100, 151, 145);
+    text-shadow: 3px 3px 5px red;
+}
+.pub_header a:hover {
+    color: rgb(39, 51, 145);
+    text-shadow: 3px 3px 5px yellow;
+}
+.pub_title{
+     color: rgb(15, 51, 45);
+    text-shadow: 3px 3px 5px yellow;
+}
+
+/* footer */
+.footer{
+   display: block;
+    width: 100%;
+    background: linear-gradient(rgba(0,20,20,0.7),rgba(0,20,20,0.7),rgba(0,20,20,0.7),rgb(178, 135, 48));
+}
+.social_media{
+    text-align: center;
+}
+.social_media img{
+    width: 4%;
+}
+.footer_contact_us{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+}
+.footer_contact_developers{
+    font-size: 12px;
+    color: white;
+    text-align: right;
+    font-style: italic;
+    margin-right: 10px;
+}
+.footer_contact_developers a{
+    color: aqua;
 }
