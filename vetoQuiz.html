@@ -12,7 +12,7 @@
 
     <div id="nav_bar" class="nav_bar">
     <ul class="nav_bar_elemnts">
-        <li>baytarapp</li>
+        <li><a href="www.baytarapp.com" target="_blank">baytarapp</a></li>
         <li>page facebook</li>
         <li>vetoPlus</li>
     </ul>
@@ -22,9 +22,9 @@
     <div id="welcome" class="welcome ">
     <div class="info_input">
     
-    <h1>welcome to vetoQuiz</h1>
+    <h1>إختبر معلوماتك الآن </h1>
     <p><br><br><br><br></p>
-    <input id="start_btn" type="submit" value="Start" onclick="strt()">
+    <input id="start_btn" type="submit" value="إبدأ" onclick="strt()">
 
         
     </div>
@@ -40,7 +40,7 @@
 </div>
 <div id="notification" class="notification"></div>
 <div class="qst_container">
-<p id="qst" class="qst">Start</p>
+<p id="qst" class="qst">__</p>
 <img src="" id="qst_img" class="qst_img" alt=""><br>
 </div>
     <div class="options_list row">
@@ -96,19 +96,30 @@
                 </div>
         <br><br><br>
         
+        
     </div>
     
+    <div id="background_fade" class="background_fade">
+    <div id="preview_screen" class="preview_screen">
+        <img src="pub_other/other1.png" alt="preview_image" id="preview_image" class="preview_image">
+        <div id="preview_screen_btns" class="preview_screen_btns">
+        <button id="previous_btn" class="preview_btn" onclick="previous_img()">&lt;&lt;&lt;</button>
+        <button id="close_btn" class="preview_btn" onclick="document.getElementById('preview_screen').style.display='none';document.getElementById('background_fade').style.display='none';">close</button>
+        <button id="next_btn" class="preview_btn" onclick="next_img()">&gt;&gt;&gt;</button>
+        </div>
+        </div>
+        </div>
     </div>
     <div id="footer" class="footer">
-        <p class="footer_contact_us"> contact us :</p>
+        <p class="footer_contact_us"> contactez VetoQuiz :</p>
         <div id="social_media" class="social_media">
         <a href="https://www.facebook.com/Veto-Quiz-1164515143678534/" target="blank"><img class="social_media_icon" src="social_media/fb_logo.png" alt="facebook_account"></a>
-  <a href="https://www.linkedin.com/in/mohieddine-chatti-69730a125/" target="blank"><img class="social_media_icon" src="social_media/linkedIn_logo.png" alt=" linkedIn_profile"></a>
+         <a href="#" target="blank"><img class="social_media_icon" src="social_media/Instagram.png" alt="instagram_profile"></a>
+        <a href="#" target="blank"><img class="social_media_icon" src="social_media/youtube-logo.png" alt="youtube_channel"></a>
+  <a href="" target="blank"><img class="social_media_icon" src="social_media/googleplus.png" alt=" googleplus account"></a>
   <a href="#" target="blank"><img class="social_media_icon" src="social_media/twitter-logo.png" alt="twitter account"></a>
-  <a href="#" target="blank"><img class="social_media_icon" src="social_media/Instagram.png" alt="instagram_profile"></a>
-  <a href="#" target="blank"><img class="social_media_icon" src="social_media/youtube-logo.png" alt="youtube_channel"></a>
     </div> 
-        <p class="footer_contact_developers">idée de : <a href="https://www.facebook.com/houssam.naceri" target="_blank"> Dr. Houssam Naceri</a> <br>développée par : <a href="https://www.facebook.com/Mohieddine.CHATTI" target="_blank">Ing. Mohieddine CHATTI</a></p>
+        <p class="footer_contact_developers">développée par : <a href="https://www.facebook.com/Mohieddine.CHATTI" target="_blank">Ing. Mohieddine CHATTI</a><br>idée de : <a href="https://www.facebook.com/houssam.naceri" target="_blank"> équipe VétoPlus.dz</a></p>
     </div>
     
     
