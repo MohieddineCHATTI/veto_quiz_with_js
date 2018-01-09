@@ -12,7 +12,7 @@
 
     <div id="nav_bar" class="nav_bar">
     <ul class="nav_bar_elemnts">
-        <li><a href="www.baytarapp.com" target="_blank">baytarapp</a></li>
+        <li><a href="http://www.baytarapp.com/" target="_blank">baytarapp</a></li>
         <li>page facebook</li>
         <li>vetoPlus</li>
     </ul>
@@ -36,7 +36,7 @@
 <div id="status_bar" class="status_bar">
     <div id="qst_num" class="qst_num">Q</div>
     <div id="time" class="time"></div>
-    <div id="score" class="score">score !!</div>
+    <div id="score" class="score">النتيجة </div>
 </div>
 <div id="notification" class="notification"></div>
 <div class="qst_container">
@@ -45,24 +45,25 @@
 </div>
     <div class="options_list row">
         
-        <div class="opt_container" style="float:left"><p id="opt1" class="opt">something</p></div>
-        <div class="opt_container" style="float: right"><p id="opt2" class="opt">something</p></div>
-        <div class="opt_container" style="float:left"><p id="opt3" class="opt">something</p></div>
-        <div class="opt_container" style="float: right"><p id="opt4" class="opt">something</p></div>
+        <div class="opt_container" style="float:left"><p id="opt1" class="opt">_</p></div>
+        <div class="opt_container" style="float: right"><p id="opt2" class="opt">_</p></div>
+        <div class="opt_container" style="float:left"><p id="opt3" class="opt">_</p></div>
+        <div class="opt_container" style="float: right"><p id="opt4" class="opt">_</p></div>
        
     </div>
     <br>
     <div id="btn_container" class="btn_container">
-<button id="next_qst" class="btn btn_next_qst" onclick="next_qst()">Next_Qst</button>
-<button id="answer_now" class="btn btn_answer_now" onclick="ans_check()" >Answer Now</button>
+<button id="next_qst" class="btn btn_next_qst" onclick="next_qst()">التالي</button>
+<button id="answer_now" class="btn btn_answer_now" onclick="ans_check()" >إجابة</button>
     </div>    
     <button id="restart" class="restart" onclick="play_again()">restart</button>
     </div>
     <div id="finish_alert" class="finish_alert">
          <input id="enter_name" type="text" placeholder="please write your name.." required >
+        <p id="my_result"></p>
     <br>
-    <button id="share_btn" class="share_btn" onclick="openFbPopUp()">share</button>
-    <button id="play_again" class="play_again" onclick="play_again()">play again</button>
+    <button id="share_btn" class="share_btn" onclick="openFbPopUp()">مشاركة</button>
+    <button id="play_again" class="play_again" onclick="play_again()">إلعب ثانية</button>
     </div>
     <br><br>
     </div>
@@ -104,7 +105,7 @@
         <img src="pub_other/other1.png" alt="preview_image" id="preview_image" class="preview_image">
         <div id="preview_screen_btns" class="preview_screen_btns">
         <button id="previous_btn" class="preview_btn" onclick="previous_img()">&lt;&lt;&lt;</button>
-        <button id="close_btn" class="preview_btn" onclick="document.getElementById('preview_screen').style.display='none';document.getElementById('background_fade').style.display='none';">close</button>
+        <button id="close_btn" class="preview_btn" onclick="document.getElementById('preview_screen').style.display='none';document.getElementById('background_fade').style.display='none';">خروج</button>
         <button id="next_btn" class="preview_btn" onclick="next_img()">&gt;&gt;&gt;</button>
         </div>
         </div>

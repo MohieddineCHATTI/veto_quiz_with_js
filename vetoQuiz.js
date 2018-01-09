@@ -1,7 +1,62 @@
 var easy_qst=[
     {
-        qst: "??? ????? ???? ??????",
-        img_src:"qst_img.jpg",
+        qst: "ما اسم هته الفصيلة من الكلاب",
+        img_src:" qst.images/53.jpg ",
+        opt1: "Malinois",
+        opt2: "Berger Allemand",
+        opt3: "Mastiff",
+        opt4: "Teckel",
+        correct_answers: ["Malinois"]
+    },
+    {
+        qst: "ما اسم هته الفصيلة من الكلاب",
+        img_src:" qst.images/54.jpg ",
+        opt1: "Beagle",
+        opt2: "Rottweiler",
+        opt3: "Berger Russe",
+        opt4: "Berger Australien",
+        correct_answers: ["Berger Australien"]
+    },
+    {
+        qst: "ما اسم هته الفصيلة من الكلاب",
+        img_src:" qst.images/55.jpg ",
+        opt1: "Beagle",
+        opt2: "Chihuahua",
+        opt3: "Yorkshire Terrier",
+        opt4: "aniche",
+        correct_answers: ["Yorkshire Terrier"]
+    },
+{
+        qst: "ما اسم هته الفصيلة من الكلاب",
+        img_src:" qst.images/56.jpg ",
+        opt1: "Berger australien",
+        opt2: "Berger Allemand",
+        opt3: "Border Collie",
+        opt4: "Malinois",
+        correct_answers: ["Border Collie"]
+    },
+    {
+        qst: "ما اسم هته الفصيلة من الكلاب",
+        img_src:" qst.images/57.jpg ",
+        opt1: "Malinois",
+        opt2: "Boxer",
+        opt3: "Yorkshire Terrier",
+        opt4: "Pitbull",
+        correct_answers: ["Pitbull"]
+    },
+    {
+        qst: "ما اسم هته الفصيلة من الكلاب",
+        img_src:" qst.images/58.jpg ",
+        opt1: "Berger Caucase",
+        opt2: "Boxer",
+        opt3: "ChowChow",
+        opt4: "Mastiff",
+        correct_answers: ["ChowChow"]
+    },
+
+        {
+        qst: "عدد أسنان صغار الكلاب قبل البلوغ",
+        img_src:"",
         opt1: "30",
         opt2: "26",
         opt3: "32",
@@ -9,8 +64,8 @@ var easy_qst=[
         correct_answers: ["32"]
     },
     {
-        qst: "??? ????? ????? ??????",
-        img_src:"qst_img.jpg",
+        qst: "عدد أسنان الكلاب بعد تجاوز سن البلوغ",
+        img_src:"",
         opt1: "40",
         opt2: "42",
         opt3: "41",
@@ -18,8 +73,8 @@ var easy_qst=[
         correct_answers: ["42"]
     },
     {
-        qst: "??? ????? ???? ?????",
-        img_src:"qst_img.jpg",
+        qst: "عدد أسنان القطط قبل البلوغ",
+        img_src:"",
         opt1: "32",
         opt2: "12",
         opt3: "24",
@@ -27,8 +82,8 @@ var easy_qst=[
         correct_answers: ["26"]
     },
     {
-        qst: "??? ????? ????? ???????",
-        img_src:"qst_img.jpg",
+        qst: "عدد اسنان القطط بعد تجاوز سن البلوغ",
+        img_src:"",
         opt1: "32",
         opt2: "30",
         opt3: "28",
@@ -36,8 +91,8 @@ var easy_qst=[
         correct_answers: ["30"]
     },
     {
-        qst: "??? ??????? ?? ?? ??? ?????",
-        img_src:"qst_img.jpg",
+        qst: "عدد الأضراس عند الكلاب قبل سن البلوغ",
+        img_src:"",
         opt1: "8",
         opt2: "16",
         opt3: "18",
@@ -45,8 +100,8 @@ var easy_qst=[
         correct_answers: ["16"]
     },
     {
-        qst: "??? ??????? ?? ?? ??? ????",
-        img_src:"qst_img.jpg",
+        qst: "عدد الأضراس لدى الكلاب بعد سن البلوغ",
+        img_src:"",
         opt1: "17",
         opt2: "12",
         opt3: "10",
@@ -54,8 +109,8 @@ var easy_qst=[
         correct_answers: ["10"]
     },
     {
-        qst: "??? ??????? ?? ?? ??? ????",
-        img_src:"qst_img.jpg",
+        qst: "عدد الأضراس لدى القطط قبل سن البلوغ",
+        img_src:"",
         opt1: "12",
         opt2: "16",
         opt3: "8",
@@ -63,8 +118,8 @@ var easy_qst=[
         correct_answers: ["12"]
     },
     {
-        qst: "??? ??????? ?? ?? ?? ????",
-        img_src:"qst_img.jpg",
+        qst: "عدد الأضراس لدى القطط بعد سن البلوغ",
+        img_src:"",
         opt1: "6",
         opt2: "4",
         opt3: "8",
@@ -72,210 +127,701 @@ var easy_qst=[
         correct_answers: ["4"]
     },
     {
-        qst: "???? ????? ??? ?????",
-        img_src:"qst_img.jpg",
-        opt1: "69?72",
-        opt2: "64?67",
+        qst: "مدة الحمل لدى القطط",
+        img_src:"",
+        opt1: "69-72",
+        opt2: "64-67",
         opt3: "60",
         opt4: "57",
-        correct_answers: ["64?67"]
+        correct_answers: ["64-67"]
     },
     {
-        qst: "???? ????? ??? ??????",
-        img_src:"qst_img.jpg",
+        qst: "فترة الحمل لدى الكلاب",
+        img_src:"",
         opt1: "60",
         opt2: "66",
-        opt3: "58?68",
-        opt4: "54?56",
-        correct_answers: ["58?68"]
+        opt3: "58-68",
+        opt4: "54-56",
+        correct_answers: ["58-68"]
+    },
+    
+    {
+        qst: "مدة الحمل لدى الفرس أي انثى الحصان",
+        img_src:"",
+        opt1: "360",
+        opt2: "345",
+        opt3: "330",
+        opt4: "325",
+        correct_answers: ["345"]
+    },
+    {
+        qst: "مدة الحمل لدى البقر",
+        img_src:"",
+        opt1: "259",
+        opt2: "300",
+        opt3: "359",
+        opt4: "280",
+        correct_answers: ["280"]
+    },
+    {
+        qst: "عدد الحلمات لدى أنثى الكلب",
+        img_src:"1",
+        opt1: "8",
+        opt2: "10",
+        opt3: "4",
+        opt4: "6",
+        correct_answers: ["10"]
+    },
+    {
+        qst: "عدد أثداء الأنثى لدى القطط",
+        img_src:"2",
+        opt1: "8",
+        opt2: "6",
+        opt3: "4",
+        opt4: "2",
+        correct_answers: ["8"]
+    },
+    {
+        qst: "عدد الأمراض الفيروسية الواجب تلقيح الكلاب ضدها سنويا",
+        img_src:"",
+        opt1: "10",
+        opt2: "6",
+        opt3: "7",
+        opt4: "5",
+        correct_answers: ["5"]
+    },
+    {
+        qst: "عدد الأمراض الفيروسية الخطيرة الواجب تلقيح القطط ضدها سنويا",
+        img_src:"",
+        opt1: "7",
+        opt2: "2",
+        opt3: "4",
+        opt4: "6",
+        correct_answers: ["4"]
     }
     
     ];
 
 var medium_qst=[
     {
-        qst: "what s the capital city of Algeria ?",
+        qst: "أخطر مرض فيروسي يصيب و يتسبب في موت العدد من القطط الصغيرة",
         img_src:"",
-        opt1: "algeirs",
-        opt2: "biskra",
-        opt3: "feliache",
-        opt4: "cabinet vet dhal3a",
-        correct_answers: ["algeirs"]
+        opt1: "التهاب الكبد الفيروسي",
+        opt2: "كوريزا",
+        opt3: "داء الكلب",
+        opt4: "طوكسوبلازموز",
+        correct_answers: ["كوريزا"]
     },
     {
-        qst: "numbers that are lowwer than 10 ?",
+        qst: "المرض المنتقل بين الحيوانات عن طريق العض و الخدش و اللعاب و يصيب الانسان كذلك",
         img_src:"",
-        opt1: "5",
+        opt1: "التهاب القصبات الهوائية",
+        opt2: "التهاب الكبد",
+        opt3: "الكلب",
+        opt4: "البارفو الفيروسي",
+        correct_answers: ["الكلب"]
+    },
+    {
+        qst: "داء الكلب قد يصيب",
+        img_src:"",
+        opt1: "كل الحيوانات",
+        opt2: "الكلاب و الأبقار و الأحصنة فقط",
+        opt3: "الكلاب فقط",
+        opt4: "الكلاب و القطط",
+        correct_answers: ["كل الحيوانات"]
+    },
+    {
+        qst: "ما اسم هته الفصيلة من الكلاب",
+        img_src:" qst.images/59.jpg ",
+        opt1: "Pitbull",
+        opt2: "Carlin",
+        opt3: "Chihuahua",
+        opt4: "Border Collie",
+        correct_answers: ["Carlin"]
+    },
+    {
+        qst: "ما اسم هته الفصيلة من الكلاب",
+        img_src:" qst.images/60.jpg ",
+        opt1: "Husky",
+        opt2: "Chihuahua",
+        opt3: "Rottweiler",
+        opt4: "ChowChow",
+        correct_answers: ["Chihuahua"]
+    },
+    {
+        qst: "ما اسم هته الفصيلة من الكلاب",
+        img_src:" qst.images/61.jpg ",
+        opt1: "Boxer",
+        opt2: "Pitbull",
+        opt3: "Berger australien",
+        opt4: "caniche",
+        correct_answers: ["Boxer"]
+    },
+    {
+        qst: "ما اسم هته الفصيلة من الكلاب",
+        img_src:" qst.images/62.jpg ",
+        opt1: "Husky Sibérien",
+        opt2: "Rottweiler",
+        opt3: "Berger Allemand",
+        opt4: "Malinois",
+        correct_answers: ["Husky Sibérien"]
+    },
+    {
+        qst: "ما اسم هته الفصيلة من الكلاب",
+        img_src:" qst.images/63.jpg ",
+        opt1: "Dog Allemand",
+        opt2: "Mastiff",
+        opt3: "Labrador",
+        opt4: "Dobermann",
+        correct_answers: ["Mastiff"]
+    },
+    {
+        qst: "ما اسم هته الفصيلة من الكلاب",
+        img_src:" qst.images/64.jpg ",
+        opt1: "Beagle",
+        opt2: "Bulldog Anglais",
+        opt3: "Teckel",
+        opt4: "malinois",
+        correct_answers: ["Teckel"]
+    },
+
+    {    
+        qst: "ما هو المرض الطفيلي لدى القطط الذي يسبب الاجهاض لدى النساء في حالة انتقاله لهن",
+        img_src:"",
+        opt1: "الديدان المعوية",
+        opt2: "كوريزا",
+        opt3: "كارسينوم",
+        opt4: "طوكسوبلازموز",
+        correct_answers: ["طوكسوبلازموز"]
+    },
+{
+        qst: "عدد الأنياب لدى صغار الكلاب",
+        img_src:"",
+        opt1: "2 في الفك العلوي",
+        opt2: "2 في الفك السفلي",
+        opt3: "4",
+        opt4: "0",
+        correct_answers: ["4"]
+    },
+    {
+        qst: "عدد الأنياب لدى الكلاب البالغة",
+        img_src:"",
+        opt1: "4",
+        opt2: "8",
+        opt3: "16",
+        opt4: "6",
+        correct_answers: ["4"]
+    },
+    {
+        qst: "عدد الأنياب لدى صغار القطط",
+        img_src:"",
+        opt1: "2",
+        opt2: "4",
+        opt3: "6",
+        opt4: "0",
+        correct_answers: ["4"]
+    },
+    {
+        qst: "عدد الأنياب لدى القطط البالغة",
+        img_src:"",
+        opt1: "2",
+        opt2: "6",
+        opt3: "8",
+        opt4: "4",
+        correct_answers: ["4"]
+    },
+    {
+        qst: "عدد أضراس الفك العلوي لصغار القطط",
+        img_src:"",
+        opt1: "6",
+        opt2: "16",
+        opt3: "4",
+        opt4: "0",
+        correct_answers: ["6"]
+    },
+    {
+        qst: "عدد أضراس الفك العلوي لصغار الكلاب",
+        img_src:"",
+        opt1: "18",
+        opt2: "8",
+        opt3: "6",
+        opt4: "10",
+        correct_answers: ["8"]
+    },
+    {
+        qst: "عدد الأضراس لدى كلب بالغ في الفك العلوي",
+        img_src:"",
+        opt1: "6",
+        opt2: "12",
+        opt3: "4",
+        opt4: "8",
+        correct_answers: ["4"]
+    },
+    {
+        qst: "عدد الأضراس في الفك العلوى لدى القطط البالغة",
+        img_src:"",
+        opt1: "8",
+        opt2: "2",
+        opt3: "4",
+        opt4: "6",
+        correct_answers: ["2"]
+    },
+    {
+        qst: "عدد أضراس الفك السفلي لدى قط لم يبلغ بعد",
+        img_src:"",
+        opt1: "2",
+        opt2: "6",
+        opt3: "0",
+        opt4: "4",
+        correct_answers: ["6"]
+    },
+    {
+        qst: "عدد الأضراس في الفك السفلي لدى كلب لم يبلغ بعد",
+        img_src:"",
+        opt1: "0",
+        opt2: "4",
+        opt3: "6",
+        opt4: "8",
+        correct_answers: ["8"]
+    },
+   {
+        qst: "عدد أضراس الفك السفلي لدى كلب بالغ",
+        img_src:"",
+        opt1: "18",
+        opt2: "6",
+        opt3: "14",
+        opt4: "10",
+        correct_answers: ["6"]
+    },
+    {
+        qst: "عدد أضراس الفك السفلي لدى قط بالغ",
+        img_src:"",
+        opt1: "4",
+        opt2: "5",
+        opt3: "2",
+        opt4: "6",
+        correct_answers: ["2"]
+    },
+    {
+        qst: "عدد الأنياب في الفك العلوي لكلب غير بالغ",
+        img_src:"",
+        opt1: "3",
+        opt2: "0",
+        opt3: "4",
+        opt4: "2",
+        correct_answers: ["2"]
+    },
+    {
+        qst: "عدد أنياب الفك العلوي لكلب كبير",
+        img_src:"",
+        opt1: "2",
+        opt2: "4",
+        opt3: "3",
+        opt4: "0",
+        correct_answers: ["2"]
+    },
+    {
+        qst: "عدد الأنياب في الفك العلوى لدى قط بالغ",
+        img_src:"",
+        opt1: "10",
+        opt2: "12",
+        opt3: "2",
+        opt4: "8",
+        correct_answers: ["2"]
+    },
+    {
+        qst: "عدد أنياب الفك العلوي لدى قط لم يبلغ بعد ",
+        img_src:"",
+        opt1: "4",
+        opt2: "3",
+        opt3: "2",
+        opt4: "0",
+        correct_answers: ["2"]
+    },
+    {
+        qst: "عدد الأنياب في الفك السفلي لدى كلب بالغ",
+        img_src:"",
+        opt1: "6",
+        opt2: "2",
+        opt3: "4",
+        opt4: "3",
+        correct_answers: ["2"]
+    }, 
+    {
+        qst: "عدد الأنياب في الفك السفلي لدى كلب لم يبلغ بعد",
+        img_src:" ",
+        opt1: "2",
+        opt2: "3",
+        opt3: "6",
+        opt4: "7",
+        correct_answers: ["2"]
+    }, 
+    {
+        qst: "عدد الأنياب في الفك السفلي لدى قط بالغ",
+        img_src:"",
+        opt1: "6",
+        opt2: "8",
+        opt3: "4",
+        opt4: "2",
+        correct_answers: ["2"]
+    },
+    {
+        qst: "عدد الأنياب في الفك السفلي لدى قط لم يبلغ بعد",
+        img_src:"",
+        opt1: "3",
+        opt2: "0",
+        opt3: "2",
+        opt4: "4",
+        correct_answers: ["2"]
+    },
+    {
+        qst: "ما هو عدد القواطع في فم كلب بالغ",
+        img_src:"",
+        opt1: "18",
+        opt2: "12",
+        opt3: "14",
+        opt4: "16",
+        correct_answers: ["12"]
+    }, 
+    {
+        qst: "ما هو عدد القواطع في فم كلب لم يبلغ بعد",
+        img_src:"",
+        opt1: "12",
+        opt2: "6",
+        opt3: "8",
+        opt4: "10",
+        correct_answers: ["12"]
+    },
+    {
+        qst: "ما هو عدد القواطع في فم قط بالغ",
+        img_src:"",
+        opt1: "16",
+        opt2: "12",
+        opt3: "14",
+        opt4: "18",
+        correct_answers: ["12"]
+    }, 
+    {
+        qst: "ما هو عدد القواطع في فم قط لم يبلغ بعد",
+        img_src:"",
+        opt1: "18",
+        opt2: "10",
+        opt3: "12",
+        opt4: "16",
+        correct_answers: ["12"]
+    }, 
+    {
+        qst: "عدد القواطع في الفك السفلي في فم كلب بالغ",
+        img_src:"",
+        opt1: "2",
+        opt2: "4",
+        opt3: "8",
+        opt4: "6",
+        correct_answers: ["6"]
+    }, 
+    {
+        qst: "عدد القواطع في الفك السفلي في فم كلب لم يبلغ بعد",
+        img_src:"",
+        opt1: "10",
+        opt2: "8",
+        opt3: "4",
+        opt4: "6",
+        correct_answers: ["6"]
+    },
+    {
+        qst: "عدد القواطع في الفك السفلي في فم قط بالغ",
+        img_src:"",
+        opt1: "3",
+        opt2: "4",
+        opt3: "6",
+        opt4: "8",
+        correct_answers: ["6"]
+    },
+    {
+        qst: "عدد القواطع في الفك السفلي في فم هر لم يبلغ بعد",
+        img_src:"",
+        opt1: "6",
+        opt2: "8",
+        opt3: "10",
+        opt4: "4",
+        correct_answers: ["6"]
+    },
+    {
+        qst: "عدد القواطع في الفك العلوي في فم كلب بالغ",
+        img_src:"",
+        opt1: "6",
         opt2: "7",
-        opt3: "13",
-        opt4: "100",
-        correct_answers: ["5", "7"]
+        opt3: "8",
+        opt4: "4",
+        correct_answers: ["6"]
     },
     {
-        qst: "the day after saturday ?",
+        qst: "عدد القواطع في الفك العلوي في فم كلب لم يبلغ بعد",
         img_src:"",
-        opt1: "friday",
-        opt2: "wednesday",
-        opt3: "monday",
-        opt4: "none of the above",
-        correct_answers: ["none of the above"]
-    },
-    {
-        qst: "what s the best country in the world ?",
-        img_src:"",
-        opt1: "algeria",
-        opt2: "togo",
-        opt3: "us",
-        opt4: "germany",
-        correct_answers: ["algeria"]
-    },
-    {
-        qst: "numbers that are lowwer than 10 ?",
-        img_src:"",
-        opt1: "5",
-        opt2: "7",
-        opt3: "13",
-        opt4: "100",
-        correct_answers: ["5", "7"]
-    },
-    {
-        qst: "the day after saturday ?",
-        img_src:"",
-        opt1: "friday",
-        opt2: "wednesday",
-        opt3: "monday",
-        opt4: "none of the above",
-        correct_answers: ["none of the above"]
-    },
-    {
-        qst: "what s the best country in the world ?",
-        img_src:"",
-        opt1: "algeria",
-        opt2: "togo",
-        opt3: "us",
-        opt4: "germany",
-        correct_answers: ["algeria"]
-    },
-    {
-        qst: "numbers that are lowwer than 10 ?",
-        img_src:"",
-        opt1: "5",
-        opt2: "7",
-        opt3: "13",
-        opt4: "100",
-        correct_answers: ["5", "7"]
-    },
-    {
-        qst: "the day after saturday ?",
-        img_src:"",
-        opt1: "friday",
-        opt2: "wednesday",
-        opt3: "monday",
-        opt4: "none of the above",
-        correct_answers: ["none of the above"]
-    },
-    {
-        qst: "what s the best country in the world ?",
-        img_src:"",
-        opt1: "algeria",
-        opt2: "togo",
-        opt3: "us",
-        opt4: "germany",
-        correct_answers: ["algeria"]
+        opt1: "3",
+        opt2: "8",
+        opt3: "6",
+        opt4: "4",
+        correct_answers: ["6"]
     }
 ];
 
 
 var hard_qst=[
     {
-        qst: "what s the capital city of Algeria ?",
+        qst: "عدد القواطع في الفك العلوي في فم قط بالغ",
         img_src:"",
-        opt1: "algeirs",
-        opt2: "biskra",
-        opt3: "feliache",
-        opt4: "cabinet vet dhal3a",
-        correct_answers: ["algeirs"]
-    },
+        opt1: "6",
+        opt2: "8",
+        opt3: "16",
+        opt4: "18",
+        correct_answers: ["6"]
+    }, 
     {
-        qst: "numbers that are lowwer than 10 ?",
+        qst: "عدد القواطع في الفك العلوي في فم هر لم يبلغ بعد",
         img_src:"",
         opt1: "5",
+        opt2: "8",
+        opt3: "6",
+        opt4: "4",
+        correct_answers: ["6"]
+    },
+    {
+        qst: "ما اسم هته الفصيلة من القطط",
+        img_src:"qst.images/39.jpg",
+        opt1: "siamois",
+        opt2: "ragdoll",
+        opt3: "Angora",
+        opt4: "turc de van",
+        correct_answers: ["Angora"]
+    },
+    {
+        qst: "ما اسم هته الفصيلة من القطط",
+        img_src:"qst.images/42.jpg",
+        opt1: "angora",
+        opt2: "siamois",
+        opt3: "chat de van",
+        opt4: "Manx",
+        correct_answers: ["Manx"]
+    },
+    {
+        qst: "ما اسم هته الفصيلة من القطط",
+        img_src:"qst.images/43.jpg",
+        opt1: "Norvégien",
+        opt2: "siamois",
+        opt3: "turc de van",
+        opt4: "DevonRex",
+        correct_answers: ["turc de van"]
+    },
+    {
+        qst: "ما اسم هته الفصيلة من القطط",
+        img_src:"qst.images/45.jpg",
+        opt1: "Bombay",
+        opt2: "American curl",
+        opt3: "Chartreux",
+        opt4: "Balinais",
+        correct_answers: ["Bombay"]
+    },
+    {
+        qst: "ما اسم هته الفصيلة من القطط",
+        img_src:"qst.images/52.jpg",
+        opt1: "Siamois",
+        opt2: "Munchkin",
+        opt3: "Ragdoll",
+        opt4: "Angora",
+        correct_answers: ["Munchkin"]
+    },
+    {
+        qst: "ما اسم هته الفصيلة من القطط",
+        img_src:"qst.images/49.jpg",
+        opt1: "Bombay",
+        opt2: "Turc de van",
+        opt3: "Chartreux",
+        opt4: "Bobtail Japonais",
+        correct_answers: ["Chartreux"]
+    },
+    {
+        qst: "ما اسم هته الفصيلة من القطط",
+        img_src:"qst.images/34.jpg",
+        opt1: "Angora",
+        opt2: "Siamois",
+        opt3: "Sphynx",
+        opt4: "Ragdoll",
+        correct_answers: ["Ragdoll"]
+    },
+    {
+        qst: "ما اسم هته الفصيلة من القطط",
+        img_src:"qst.images/35.jpg",
+        opt1: "Bombay",
+        opt2: "Manx",
+        opt3: "Siamois",
+        opt4: "Ragdoll",
+        correct_answers: ["Siamois"]
+    },
+    {
+        qst: "ما اسم هته الفصيلة من القطط",
+        img_src:"qst.images/36.jpg",
+        opt1: "DevonRex",
+        opt2: "Norvégien",
+        opt3: "Persan",
+        opt4: "Angora",
+        correct_answers: ["Persan"]
+    },
+    {
+        qst: "ما اسم هته الفصيلة من القطط",
+        img_src:"qst.images/42.jpg",
+        opt1: "Sphynx",
+        opt2: "Siamois",
+        opt3: "DevonRex",
+        opt4: "Balinais",
+        correct_answers: ["sphynx"]
+    },
+    {
+        qst: "عدد القواطع في الفك السفلي في فم هر لم يبلغ بعد",
+        img_src:"",
+        opt1: "6",
+        opt2: "8",
+        opt3: "10",
+        opt4: "4",
+        correct_answers: ["6"]
+    },
+    {
+        qst: "عدد القواطع في الفك العلوي في فم كلب بالغ",
+        img_src:"",
+        opt1: "6",
         opt2: "7",
-        opt3: "13",
-        opt4: "100",
-        correct_answers: ["5", "7"]
+        opt3: "8",
+        opt4: "4",
+        correct_answers: ["6"]
     },
     {
-        qst: "the day after saturday ?",
+        qst: "عدد القواطع في الفك العلوي في فم كلب لم يبلغ بعد",
         img_src:"",
-        opt1: "friday",
-        opt2: "wednesday",
-        opt3: "monday",
-        opt4: "none of the above",
-        correct_answers: ["none of the above"]
+        opt1: "3",
+        opt2: "8",
+        opt3: "6",
+        opt4: "4",
+        correct_answers: ["6"]
     },
     {
-        qst: "what s the best country in the world ?",
-        img_src:"",
-        opt1: "algeria",
-        opt2: "togo",
-        opt3: "us",
-        opt4: "germany",
-        correct_answers: ["algeria"]
+        qst: "ما اسم هته الفصيلة من القطط",
+        img_src:"qst.images/40.jpg",
+        opt1: "Norvégien",
+        opt2: "Himalayen",
+        opt3: "Turc de Van",
+        opt4: "Manx",
+        correct_answers: ["Norvégien"]
     },
     {
-        qst: "numbers that are lowwer than 10 ?",
-        img_src:"",
-        opt1: "5",
-        opt2: "7",
-        opt3: "13",
-        opt4: "100",
-        correct_answers: ["5", "7"]
+        qst: "ما اسم هته الفصيلة من القطط",
+        img_src:"qst.images/41.jpg",
+        opt1: "persan",
+        opt2: "Himalayen",
+        opt3: "DevonRex",
+        opt4: "Munchkin",
+        correct_answers: ["DevonRex"]
     },
     {
-        qst: "the day after saturday ?",
-        img_src:"",
-        opt1: "friday",
-        opt2: "wednesday",
-        opt3: "monday",
-        opt4: "none of the above",
-        correct_answers: ["none of the above"]
+        qst: "ما اسم هته الفصيلة من القطط",
+        img_src:"qst.images/48.jpg",
+        opt1: "American Shorthair",
+        opt2: "Bobtail Japonais",
+        opt3: "Siamois",
+        opt4: "Angora",
+        correct_answers: ["Bobtail Japonais"]
     },
     {
-        qst: "what s the best country in the world ?",
-        img_src:"",
-        opt1: "algeria",
-        opt2: "togo",
-        opt3: "us",
-        opt4: "germany",
-        correct_answers: ["algeria"]
+        qst: "ما اسم هته الفصيلة من القطط",
+        img_src:"qst.images/47.jpg",
+        opt1: "American Curl",
+        opt2: "Munchkin",
+        opt3: "Norvégien",
+        opt4: "Himalayen",
+        correct_answers: ["Himalayen"]
     },
     {
-        qst: "numbers that are lowwer than 10 ?",
+        qst: "ما اسم هته الفصيلة من القطط",
+        img_src:"qst.images/44.jpg",
+        opt1: "Balinais",
+        opt2: "American Curl",
+        opt3: "Chartreux",
+        opt4: "Norvégien",
+        correct_answers: ["American Curl"]
+    },
+    
+
+    {
+        qst: "السن الذي وصل له أكبر قط معمر على وجه الأرض",
         img_src:"",
-        opt1: "5",
-        opt2: "7",
-        opt3: "13",
-        opt4: "100",
-        correct_answers: ["5", "7"]
+        opt1: "38",
+        opt2: "15",
+        opt3: "21",
+        opt4: "12",
+        correct_answers: ["38"]
     },
     {
-        qst: "the day after saturday ?",
+        qst: "متوسط عمر القطط",
         img_src:"",
-        opt1: "friday",
-        opt2: "wednesday",
-        opt3: "monday",
-        opt4: "none of the above",
-        correct_answers: ["none of the above"]
+        opt1: "12,16",
+        opt2: "8",
+        opt3: "7",
+        opt4: "23",
+        correct_answers: ["12,16"]
     },
     {
-        qst: "what s the best country in the world ?",
+        qst: "ما هو العمر الذي من الطبيعي ان لا تتجاوزه الكلاب",
         img_src:"",
-        opt1: "algeria",
-        opt2: "togo",
-        opt3: "us",
-        opt4: "germany",
-        correct_answers: ["algeria"]
+        opt1: "22",
+        opt2: "15",
+        opt3: "10",
+        opt4: "20",
+        correct_answers: ["15"]
+    },
+    
+    {
+        qst: "كم تبلغ من العمر جراء القطط و الكلاب عند بداية تغيير أسنانها اللبنية",
+        img_src:"qst.images/32.jpg",
+        opt1: "4 شهور و نصف",
+        opt2: "7 شهور",
+        opt3: "3 شهور و نصف",
+        opt4: "5 شهور",
+        correct_answers: ["3 شهور و نصف"]
+    },
+    {
+        qst: "في أي عمر تكمل جراء الكلاب و القطط تغيير أسنان اللبن لديها",
+        img_src:"",
+        opt1: "12 شهر",
+        opt2: "7 شهور و نصف",
+        opt3: "4 شهور",
+        opt4: "5 شهور",
+        correct_answers: ["7 شهور و نصف"]
+    },
+    {
+        qst: "سن البلوغ لدى القطط",
+        img_src:"qst.images/34.jpg",
+        opt1: "7 شهور",
+        opt2: "4 شهور",
+        opt3: "18 شهر",
+        opt4: "9 شهور",
+        correct_answers: ["7 شهور"]
+    },
+    {
+        qst: "سن البلوغ لدى الكلاب",
+        img_src:"qst.images/24.jpg",
+        opt1: "6 شهور",
+        opt2: "8 الى 9 شهور",
+        opt3: "12 شهر",
+        opt4: "10 شهور",
+        correct_answers: ["8 الى 9 شهور"]
+    },
+    {
+        qst: "في المتوسط كم عدد دورات الجنسية لدى أنثى الكلاب و القطط",
+        img_src:"qst.images/11.jpg",
+        opt1: "2",
+        opt2: "4",
+        opt3: "3",
+        opt4: "5",
+        correct_answers: ["2"]
     }
 ];
 
@@ -362,15 +908,15 @@ function next_qst(){
 checked=[];
 times_up = false;
 optColor=document.getElementById("opt1");
-optColor.style.background='linear-gradient(rgba(95, 158, 160,0.8),rgba(39, 107, 109,0.8));';
+optColor.style.background='linear-gradient(to right,rgba(0,0,0,0.5),rgb(173, 149, 93),rgba(0,0,0,0.5))';
 optColor=document.getElementById("opt2");
-optColor.style.background='linear-gradient(rgba(95, 158, 160,0.8),rgba(39, 107, 109,0.8))';
+optColor.style.background='linear-gradient(to right,rgba(0,0,0,0.5),rgb(173, 149, 93),rgba(0,0,0,0.5))';
 optColor=document.getElementById("opt3");
-optColor.style.background='linear-gradient(rgba(95, 158, 160,0.8),rgba(39, 107, 109,0.8))';
+optColor.style.background='linear-gradient(to right,rgba(0,0,0,0.5),rgb(173, 149, 93),rgba(0,0,0,0.5))';
 optColor=document.getElementById("opt4");
-optColor.style.background='linear-gradient(rgba(95, 158, 160,0.8),rgba(39, 107, 109,0.8))';
-document.getElementById("notification").style.background='linear-gradient(to right,rgba(0,0,0,0.5),rgba(66, 244, 244,0.7),rgba(0,0,0,0.5))';
-document.getElementById("notification").style.color="yellow";
+optColor.style.background='linear-gradient(to right,rgba(0,0,0,0.5),rgb(173, 149, 93),rgba(0,0,0,0.5))';
+document.getElementById("notification").style.background='linear-gradient(to right,rgba(0,0,0,0.5),rgba(255, 255, 255,0.7),rgba(0,0,0,0.5))';
+document.getElementById("notification").style.color="black";
 document.getElementById("notification").innerHTML="*_*";
 document.getElementById("opt1").style.pointerEvents="auto";
 document.getElementById("opt2").style.pointerEvents="auto";
@@ -391,16 +937,16 @@ i++;
 } 
 switch (true){
     case (qst_num<4):
-        t=15;
+        t=25;
         break;
     case (4<=qst_num && qst_num<9):
-        t=20;
+        t=25;
         break;
     case (qst_num>=9):
         t=25;
         break;
         default :
-        t=23;
+        t=25;
         break;
         
                }
@@ -433,7 +979,7 @@ if (!checked.includes($(this).text())){
 } else {
     checked.splice(checked.indexOf($(this).text()),1);
     optColor=document.getElementById($(this).attr("id"));
-    optColor.style.background='linear-gradient(rgba(95, 158, 160,0.8),rgba(39, 107, 109,0.8))';
+    optColor.style.background='linear-gradient(to right,rgba(0,0,0,0.5),rgb(173, 149, 93),rgba(0,0,0,0.5))';
 }
  console.log(checked);
 });
@@ -495,13 +1041,13 @@ document.getElementById("opt4").style.pointerEvents="none";
     document.getElementById("answer_now").style.display= "none";
     document.getElementById("next_qst").style.display= "block";
     }else {
-        document.getElementById("notification").innerHTML="please answer the question first";
+        document.getElementById("notification").innerHTML="أجب أولا على السؤال";
         setTimeout(function(){
             document.getElementById("notification").innerHTML="*_*";
         },3000);
          
     }
-    document.getElementById("score").innerHTML=("score: "+score);    
+    document.getElementById("score").innerHTML=("النتيجة: "+score);    
     console.log("your score is "+score);
         console.log("correct answers "+correct_ans);
         console.log("wrong answers "+wrong_ans);
@@ -511,7 +1057,8 @@ document.getElementById("opt4").style.pointerEvents="none";
     if (qst_num==11){
     document.getElementById("quiz_container").style.display="none";
     document.getElementById("finish_alert").style.display="block";
-    alert('the game has finished , your final score is  '+ score + ", you have "+correct_ans+" correct answers, and "+wrong_ans+" wrong answers"  );    
+    /*alert('the game has finished , your final score is  '+ score + ", you have "+correct_ans+" correct answers, and "+wrong_ans+" wrong answers"  ); */
+    document.getElementById('my_result').innerHTML='انتهت اللعبة, لقد حصلت على   '+ score + 'نقطة, أجبت  '+correct_ans+' إجابات صحيحة, و '+wrong_ans+" إجابات خاطئة"
     }
     
     
