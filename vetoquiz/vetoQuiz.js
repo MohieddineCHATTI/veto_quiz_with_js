@@ -1,7 +1,7 @@
 var easy_qst=[
     {
         qst: "ما اسم هته الفصيلة من الكلاب",
-        img_src:" qst.images/53.jpg ",
+        img_src:" vetoquiz/qst.images/53.jpg ",
         opt1: "Malinois",
         opt2: "Berger Allemand",
         opt3: "Mastiff",
@@ -10,7 +10,7 @@ var easy_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من الكلاب",
-        img_src:" qst.images/54.jpg ",
+        img_src:" vetoquiz/qst.images/54.jpg ",
         opt1: "Beagle",
         opt2: "Rottweiler",
         opt3: "Berger Russe",
@@ -19,7 +19,7 @@ var easy_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من الكلاب",
-        img_src:" qst.images/55.jpg ",
+        img_src:" vetoquiz/qst.images/55.jpg ",
         opt1: "Beagle",
         opt2: "Chihuahua",
         opt3: "Yorkshire Terrier",
@@ -28,7 +28,7 @@ var easy_qst=[
     },
 {
         qst: "ما اسم هته الفصيلة من الكلاب",
-        img_src:" qst.images/56.jpg ",
+        img_src:" vetoquiz/qst.images/56.jpg ",
         opt1: "Berger australien",
         opt2: "Berger Allemand",
         opt3: "Border Collie",
@@ -37,7 +37,7 @@ var easy_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من الكلاب",
-        img_src:" qst.images/57.jpg ",
+        img_src:" vetoquiz/qst.images/57.jpg ",
         opt1: "Malinois",
         opt2: "Boxer",
         opt3: "Yorkshire Terrier",
@@ -46,7 +46,7 @@ var easy_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من الكلاب",
-        img_src:" qst.images/58.jpg ",
+        img_src:" vetoquiz/qst.images/58.jpg ",
         opt1: "Berger Caucase",
         opt2: "Boxer",
         opt3: "ChowChow",
@@ -165,7 +165,7 @@ var easy_qst=[
     },
     {
         qst: "عدد الحلمات لدى أنثى الكلب",
-        img_src:"1",
+        img_src:"vetoquiz/qst.images/1.jpg",
         opt1: "8",
         opt2: "10",
         opt3: "4",
@@ -174,7 +174,7 @@ var easy_qst=[
     },
     {
         qst: "عدد أثداء الأنثى لدى القطط",
-        img_src:"2",
+        img_src:"vetoquiz/qst.images/2.jpg",
         opt1: "8",
         opt2: "6",
         opt3: "4",
@@ -232,7 +232,7 @@ var medium_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من الكلاب",
-        img_src:" qst.images/59.jpg ",
+        img_src:" vetoquiz/qst.images/59.jpg ",
         opt1: "Pitbull",
         opt2: "Carlin",
         opt3: "Chihuahua",
@@ -241,7 +241,7 @@ var medium_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من الكلاب",
-        img_src:" qst.images/60.jpg ",
+        img_src:" vetoquiz/qst.images/60.jpg ",
         opt1: "Husky",
         opt2: "Chihuahua",
         opt3: "Rottweiler",
@@ -250,7 +250,7 @@ var medium_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من الكلاب",
-        img_src:" qst.images/61.jpg ",
+        img_src:" vetoquiz/qst.images/61.jpg ",
         opt1: "Boxer",
         opt2: "Pitbull",
         opt3: "Berger australien",
@@ -259,7 +259,7 @@ var medium_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من الكلاب",
-        img_src:" qst.images/62.jpg ",
+        img_src:" vetoquiz/qst.images/62.jpg ",
         opt1: "Husky Sibérien",
         opt2: "Rottweiler",
         opt3: "Berger Allemand",
@@ -268,7 +268,7 @@ var medium_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من الكلاب",
-        img_src:" qst.images/63.jpg ",
+        img_src:" vetoquiz/qst.images/63.jpg ",
         opt1: "Dog Allemand",
         opt2: "Mastiff",
         opt3: "Labrador",
@@ -277,7 +277,7 @@ var medium_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من الكلاب",
-        img_src:" qst.images/64.jpg ",
+        img_src:"vetoquiz/qst.images/64.jpg ",
         opt1: "Beagle",
         opt2: "Bulldog Anglais",
         opt3: "Teckel",
@@ -588,7 +588,7 @@ var hard_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من القطط",
-        img_src:"qst.images/39.jpg",
+        img_src:"vetoquiz/qst.images/39.jpg",
         opt1: "siamois",
         opt2: "ragdoll",
         opt3: "Angora",
@@ -597,7 +597,7 @@ var hard_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من القطط",
-        img_src:"qst.images/42.jpg",
+        img_src:"vetoquiz/qst.images/42.jpg",
         opt1: "angora",
         opt2: "siamois",
         opt3: "chat de van",
@@ -606,7 +606,7 @@ var hard_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من القطط",
-        img_src:"qst.images/43.jpg",
+        img_src:"vetoquiz/qst.images/43.jpg",
         opt1: "Norvégien",
         opt2: "siamois",
         opt3: "turc de van",
@@ -615,7 +615,7 @@ var hard_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من القطط",
-        img_src:"qst.images/45.jpg",
+        img_src:"vetoquiz/qst.images/45.jpg", ///////////// fechier introuvable
         opt1: "Bombay",
         opt2: "American curl",
         opt3: "Chartreux",
@@ -624,7 +624,7 @@ var hard_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من القطط",
-        img_src:"qst.images/52.jpg",
+        img_src:"vetoquiz/qst.images/52.jpg",
         opt1: "Siamois",
         opt2: "Munchkin",
         opt3: "Ragdoll",
@@ -633,7 +633,7 @@ var hard_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من القطط",
-        img_src:"qst.images/49.jpg",
+        img_src:"vetoquiz/qst.images/49.jpg",
         opt1: "Bombay",
         opt2: "Turc de van",
         opt3: "Chartreux",
@@ -642,7 +642,7 @@ var hard_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من القطط",
-        img_src:"qst.images/34.jpg",
+        img_src:"vetoquiz/qst.images/34.jpg",
         opt1: "Angora",
         opt2: "Siamois",
         opt3: "Sphynx",
@@ -651,7 +651,7 @@ var hard_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من القطط",
-        img_src:"qst.images/35.jpg",
+        img_src:"vetoquiz/qst.images/35.jpg",
         opt1: "Bombay",
         opt2: "Manx",
         opt3: "Siamois",
@@ -660,7 +660,7 @@ var hard_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من القطط",
-        img_src:"qst.images/36.jpg",
+        img_src:"vetoquiz/qst.images/36.jpg",
         opt1: "DevonRex",
         opt2: "Norvégien",
         opt3: "Persan",
@@ -669,7 +669,7 @@ var hard_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من القطط",
-        img_src:"qst.images/42.jpg",
+        img_src:"vetoquiz/qst.images/42.jpg",
         opt1: "Sphynx",
         opt2: "Siamois",
         opt3: "DevonRex",
@@ -705,7 +705,7 @@ var hard_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من القطط",
-        img_src:"qst.images/40.jpg",
+        img_src:"vetoquiz/qst.images/40.jpg",
         opt1: "Norvégien",
         opt2: "Himalayen",
         opt3: "Turc de Van",
@@ -714,7 +714,7 @@ var hard_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من القطط",
-        img_src:"qst.images/41.jpg",
+        img_src:"vetoquiz/qst.images/41.jpg",
         opt1: "persan",
         opt2: "Himalayen",
         opt3: "DevonRex",
@@ -723,7 +723,7 @@ var hard_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من القطط",
-        img_src:"qst.images/48.jpg",
+        img_src:"vetoquiz/qst.images/48.jpg",
         opt1: "American Shorthair",
         opt2: "Bobtail Japonais",
         opt3: "Siamois",
@@ -732,7 +732,7 @@ var hard_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من القطط",
-        img_src:"qst.images/47.jpg",
+        img_src:"vetoquiz/qst.images/47.jpg",
         opt1: "American Curl",
         opt2: "Munchkin",
         opt3: "Norvégien",
@@ -741,7 +741,7 @@ var hard_qst=[
     },
     {
         qst: "ما اسم هته الفصيلة من القطط",
-        img_src:"qst.images/44.jpg",
+        img_src:"vetoquiz/qst.images/44.jpg",
         opt1: "Balinais",
         opt2: "American Curl",
         opt3: "Chartreux",
@@ -780,7 +780,7 @@ var hard_qst=[
     
     {
         qst: "كم تبلغ من العمر جراء القطط و الكلاب عند بداية تغيير أسنانها اللبنية",
-        img_src:"qst.images/32.jpg",
+        img_src:"vetoquiz/qst.images/32.jpg",
         opt1: "4 شهور و نصف",
         opt2: "7 شهور",
         opt3: "3 شهور و نصف",
@@ -798,7 +798,7 @@ var hard_qst=[
     },
     {
         qst: "سن البلوغ لدى القطط",
-        img_src:"qst.images/34.jpg",
+        img_src:"vetoquiz/qst.images/34.jpg",
         opt1: "7 شهور",
         opt2: "4 شهور",
         opt3: "18 شهر",
@@ -807,7 +807,7 @@ var hard_qst=[
     },
     {
         qst: "سن البلوغ لدى الكلاب",
-        img_src:"qst.images/24.jpg",
+        img_src:"vetoquiz/qst.images/24.jpg",
         opt1: "6 شهور",
         opt2: "8 الى 9 شهور",
         opt3: "12 شهر",
@@ -816,7 +816,7 @@ var hard_qst=[
     },
     {
         qst: "في المتوسط كم عدد دورات الجنسية لدى أنثى الكلاب و القطط",
-        img_src:"qst.images/11.jpg",
+        img_src:"vetoquiz/qst.images/11.jpg",
         opt1: "2",
         opt2: "4",
         opt3: "3",
@@ -917,7 +917,7 @@ optColor=document.getElementById("opt4");
 optColor.style.background='linear-gradient(to right,rgba(0,0,0,0.5),rgb(173, 149, 93),rgba(0,0,0,0.5))';
 document.getElementById("notification").style.background='linear-gradient(to right,rgba(0,0,0,0.5),rgba(255, 255, 255,0.7),rgba(0,0,0,0.5))';
 document.getElementById("notification").style.color="black";
-document.getElementById("notification").innerHTML="*_*";
+document.getElementById("notification").innerHTML="^_^";
 document.getElementById("opt1").style.pointerEvents="auto";
 document.getElementById("opt2").style.pointerEvents="auto";
 document.getElementById("opt3").style.pointerEvents="auto";
@@ -957,8 +957,8 @@ t--;
 document.getElementById("time").innerHTML="- "+t+" -";
 console.log("t is "+t);
 } else {
-    document.getElementById("time").innerHTML="time's up";
-    console.log("time's up");
+    document.getElementById("time").innerHTML="إنتهى الوقت";
+    console.log("إنتهى الوقت");
     clearInterval(count);
     times_up = true;
     ans_check();
@@ -994,7 +994,7 @@ if (times_up){
     wrong_ans++;
     document.getElementById("notification").style.background='linear-gradient(to right,rgba(0,0,0,0.5),rgba(255,0,0,0.7),rgba(0,0,0,0.5))';
     document.getElementById("notification").style.color="black";
-   document.getElementById("notification").innerHTML="Wrong";
+   document.getElementById("notification").innerHTML="إجابة خاطئة";
     document.getElementById("answer_now").style.display= "none";
     document.getElementById("next_qst").style.display= "block";
     document.getElementById("opt1").style.pointerEvents="none";
@@ -1029,13 +1029,13 @@ document.getElementById("opt4").style.pointerEvents="none";
     console.log(checking);
         if(checking==true){
            document.getElementById("notification").style.background='linear-gradient(to right,rgba(0,0,0,0.5),rgba(0,255,0,0.7),rgba(0,0,0,0.5))';
-            document.getElementById("notification").style.color="black"; document.getElementById("notification").innerHTML="Correct";
+            document.getElementById("notification").style.color="black"; document.getElementById("notification").innerHTML="إجابة صحيحة";
             score+=t;
         correct_ans++;
         } else { 
         wrong_ans++;
             document.getElementById("notification").style.background='linear-gradient(to right,rgba(0,0,0,0.5),rgba(255,0,0,0.7),rgba(0,0,0,0.5))';
-            document.getElementById("notification").style.color="black"; document.getElementById("notification").innerHTML="Wrong";
+            document.getElementById("notification").style.color="black"; document.getElementById("notification").innerHTML="إجابة خاطئة";
         }
        /// disable answer button and enable next qst button 
     document.getElementById("answer_now").style.display= "none";
@@ -1043,7 +1043,7 @@ document.getElementById("opt4").style.pointerEvents="none";
     }else {
         document.getElementById("notification").innerHTML="أجب أولا على السؤال";
         setTimeout(function(){
-            document.getElementById("notification").innerHTML="*_*";
+            document.getElementById("notification").innerHTML="^_^";
         },3000);
          
     }
@@ -1055,10 +1055,14 @@ document.getElementById("opt4").style.pointerEvents="none";
     
     // check the end of the quiz
     if (qst_num==11){
-    document.getElementById("quiz_container").style.display="none";
+        setTimeout(function(){
+           document.getElementById("quiz_container").style.display="none";
     document.getElementById("finish_alert").style.display="block";
     /*alert('the game has finished , your final score is  '+ score + ", you have "+correct_ans+" correct answers, and "+wrong_ans+" wrong answers"  ); */
-    document.getElementById('my_result').innerHTML='انتهت اللعبة, لقد حصلت على   '+ score + 'نقطة, أجبت  '+correct_ans+' إجابات صحيحة, و '+wrong_ans+" إجابات خاطئة"
+    document.getElementById('my_result').innerHTML='انتهت اللعبة<br>, لقد حصلت على   '+ score + 'نقطة,<br> أجبت  '+correct_ans+'إجابات صحيحة,<br> و '+wrong_ans+" إجابات خاطئة"
+     
+            
+        },3000)
     }
     
     
@@ -1180,7 +1184,7 @@ $("[id^=anim]").click(function(){
     imgsrc=(this).src;
     console.log(imgsrc);
     document.getElementById("preview_image").src= imgsrc;
-    suffix="pub_anim/img";
+    suffix="vetoquiz/pub_anim/img";
     num_max=4;
     num_now=anum;
     document.getElementById('background_fade').style.display="block";
@@ -1192,7 +1196,7 @@ $("[id^=prod]").click(function(){
     imgsrc=(this).src;
     console.log(imgsrc);
     document.getElementById("preview_image").src= imgsrc;
-     suffix="pub_prod/prod";
+     suffix="vetoquiz/pub_prod/prod";
     num_max=4;
     num_now=pnum;
     document.getElementById('background_fade').style.display="block";
@@ -1203,7 +1207,7 @@ $("[id^=other]").click(function(){
     imgsrc=(this).src;
     console.log(imgsrc);
     document.getElementById("preview_image").src= imgsrc;
-     suffix="pub_other/other";
+     suffix="vetoquiz/pub_other/other";
     num_max=4;
     num_now=onum;
     document.getElementById('background_fade').style.display="block";

@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="ar-AR">
     <head>
         <title>VetoQuiz</title>
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="vetoQuiz_stylesheet.css">
+        <link rel="stylesheet" type="text/css" href="vetoquiz/vetoQuiz_stylesheet.css">
+        <meta charset="UTF-8">
         
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1" />
     </head>
     
 <body>
@@ -40,7 +42,7 @@
 </div>
 <div id="notification" class="notification"></div>
 <div class="qst_container">
-<p id="qst" class="qst">__</p>
+<p id="qst" class="qst" lang="ar" dir="rtl">__</p>
 <img src="" id="qst_img" class="qst_img" alt=""><br>
 </div>
     <div class="options_list row">
@@ -59,7 +61,7 @@
     <button id="restart" class="restart" onclick="play_again()">restart</button>
     </div>
     <div id="finish_alert" class="finish_alert">
-         <input id="enter_name" type="text" placeholder="please write your name.." required >
+        <!-- <input id="enter_name" type="text" placeholder="please write your name.." required >-->
         <p id="my_result"></p>
     <br>
     <button id="share_btn" class="share_btn" onclick="openFbPopUp()">مشاركة</button>
@@ -76,25 +78,27 @@
         <br>
     <div class="pub_anim">
         <p  class="pub_title">pub anim:</p>
-                    <img id="anim1" src="pub_anim/img1.png" class="img">
-                    <img id="anim2" src="pub_anim/img2.png" class="img hide">
-                    <img id="anim3" src="pub_anim/img3.png" class="img hide">
-                    <img id="anim4" src="pub_anim/img4.png" class="img hide">
+                    <img id="anim1" src="vetoquiz/pub_anim/img1.png" class="img">
+                    <img id="anim2" src="vetoquiz/pub_anim/img2.png" class="img hide">
+                    <img id="anim3" src="vetoquiz/pub_anim/img3.png" class="img hide">
+                    <img id="anim4" src="vetoquiz/pub_anim/img4.png" class="img hide">
                 </div>
         <div class="pub_prod">
             <p class="pub_title">pub prod:</p>
-                    <img id="prod1" src="pub_prod/prod1.png" class="img">
-                    <img id="prod2" src="pub_prod/prod2.png" class="img hide">
-                    <img id="prod3" src="pub_prod/prod3.png" class="img hide">
-                    <img id="prod4" src="pub_prod/prod4.png" class="img hide">
+                    <img id="prod1" src="vetoquiz/pub_prod/prod1.png" class="img">
+                    <img id="prod2" src="vetoquiz/pub_prod/prod2.png" class="img hide">
+                    <img id="prod3" src="vetoquiz/pub_prod/prod3.png" class="img hide">
+                    <img id="prod4" src="vetoquiz/pub_prod/prod4.png" class="img hide">
                 </div>
         <div class="pub_other">
             <p class="pub_title">pub other:</p>
-                    <img id="other1" src="pub_other/other1.png" class="img">
-                    <img id="other2" src="pub_other/other2.png" class="img hide">
-                    <img id="other3" src="pub_other/other3.png" class="img hide">
-                    <img id="other4" src="pub_other/other4.png" class="img hide">
+                    <img id="other1" src="vetoquiz/pub_other/other1.png" class="img">
+                    <img id="other2" src="vetoquiz/pub_other/other2.png" class="img hide">
+                    <img id="other3" src="vetoquiz/pub_other/other3.png" class="img hide">
+                    <img id="other4" src="vetoquiz/pub_other/other4.png" class="img hide">
                 </div>
+        <br>
+        <p> لإعلاناتكم اتصلوا بالرقم<span style="color:red"> 0670053591</span>,أو زوروا صفحتنا الرسمية على الفيسبوك <a href="" target="_blank">VetoPlus.dz.</a></p>
         <br><br><br>
         
         
@@ -102,7 +106,7 @@
     
     <div id="background_fade" class="background_fade">
     <div id="preview_screen" class="preview_screen">
-        <img src="pub_other/other1.png" alt="preview_image" id="preview_image" class="preview_image">
+        <img src="" alt="preview_image" id="preview_image" class="preview_image">
         <div id="preview_screen_btns" class="preview_screen_btns">
         <button id="previous_btn" class="preview_btn" onclick="previous_img()">&lt;&lt;&lt;</button>
         <button id="close_btn" class="preview_btn" onclick="document.getElementById('preview_screen').style.display='none';document.getElementById('background_fade').style.display='none';">خروج</button>
@@ -114,18 +118,18 @@
     <div id="footer" class="footer">
         <p class="footer_contact_us"> contactez VetoQuiz :</p>
         <div id="social_media" class="social_media">
-        <a href="https://www.facebook.com/Veto-Quiz-1164515143678534/" target="blank"><img class="social_media_icon" src="social_media/fb_logo.png" alt="facebook_account"></a>
-         <a href="#" target="blank"><img class="social_media_icon" src="social_media/Instagram.png" alt="instagram_profile"></a>
-        <a href="#" target="blank"><img class="social_media_icon" src="social_media/youtube-logo.png" alt="youtube_channel"></a>
-  <a href="" target="blank"><img class="social_media_icon" src="social_media/googleplus.png" alt=" googleplus account"></a>
-  <a href="#" target="blank"><img class="social_media_icon" src="social_media/twitter-logo.png" alt="twitter account"></a>
+        <a href="https://www.facebook.com/Veto-Quiz-1164515143678534/" target="blank"><img class="social_media_icon" src="vetoquiz/social_media/fb_logo.png" alt="facebook_account"></a>
+         <a href="#" target="blank"><img class="social_media_icon" src="vetoquiz/social_media/Instagram.png" alt="instagram_profile"></a>
+        <a href="#" target="blank"><img class="social_media_icon" src="vetoquiz/social_media/youtube-logo.png" alt="youtube_channel"></a>
+  <a href="" target="blank"><img class="social_media_icon" src="vetoquiz/social_media/googleplus.png" alt=" googleplus account"></a>
+  <a href="#" target="blank"><img class="social_media_icon" src="vetoquiz/social_media/twitter-logo.png" alt="twitter account"></a>
     </div> 
         <p class="footer_contact_developers">développée par : <a href="https://www.facebook.com/Mohieddine.CHATTI" target="_blank">Ing. Mohieddine CHATTI</a><br>idée de : <a href="https://www.facebook.com/houssam.naceri" target="_blank"> équipe VétoPlus.dz</a></p>
     </div>
     
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-<script type="text/javascript" src="vetoQuiz.js"></script>
+<script type="text/javascript" src="vetoquiz/vetoQuiz.js" charset="utf-8"></script>
 </body>
 
 
